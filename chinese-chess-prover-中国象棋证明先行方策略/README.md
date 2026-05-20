@@ -171,6 +171,38 @@ reports/1024x48-games/sample_1024_positions.txt
 
 解释：这里的“平”是实验平局，表示 48 半回合内没有将死，或同一状态第 3 次出现；它不是数学上的必和证明。
 
+## 1x256 单局面深度请求
+
+复现 1 个标准开局局面、向 Pikafish 请求 `go depth 256`，并设置 120 秒安全上限：
+
+```bash
+python3 run_1x_depth.py \
+  --depth 256 \
+  --max-seconds 120 \
+  --out-dir reports/1x256
+```
+
+本次报告文件：
+
+```text
+reports/1x256/pikafish_1x_depth.md
+reports/1x256/pikafish_1x_depth.json
+```
+
+本次结果：
+
+- 请求深度：`256`。
+- 停止原因：`max_seconds`。
+- 实际运行：`130.36` 秒。
+- 最高报告深度：`42`。
+- 最后分数：`cp 23`。
+- 最后选择深度：`seldepth 56`。
+- 最后节点数：`97104732`。
+- 正式 `bestmove`：未返回。
+- 从最后 PV 推导的首着：`h2e2`。
+
+解释：这不是“完成 depth 256”的结果，而是一次 `go depth 256` 请求在本机 120 秒上限内实际达到的结果。开局局面直接完成 depth 256 不现实。
+
 ## 坐标
 
 走法使用类 UCI 坐标：

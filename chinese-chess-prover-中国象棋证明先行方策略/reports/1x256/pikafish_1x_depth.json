@@ -1,0 +1,7947 @@
+{
+  "requested_depth": 256,
+  "max_seconds": 120.0,
+  "stopped_by": "max_seconds",
+  "runtime_seconds": 130.36,
+  "fen": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1",
+  "bestmove": null,
+  "highest_depth": 42,
+  "last_info": {
+    "raw": "info depth 42 seldepth 56 multipv 1 score cp 23 nodes 97104732 nps 892424 hashfull 1000 tbhits 0 time 108810 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 c3c4 h7i7 h6g6 i7i8 b0c2 i8g8 g6f6 d9e8 c2d4 h9h4 b2b4 c9e7 e2d2 c6c5 g3g4 h4h5 c4c5 e7c5 b4c4 c7d5 f6f8 b7b8 d2d5 b8f8 d5h5 a9d9 d4f5 g7h5 g4g5 h5g3 c0e2 g3f5 g5f5 d9d4 f0e1 f8f6",
+    "depth": 42,
+    "seldepth": 56,
+    "nodes": 97104732,
+    "nps": 892424,
+    "time_ms": 108810,
+    "score_type": "cp",
+    "score": 23,
+    "pv": [
+      "h2e2",
+      "h9g7",
+      "h0g2",
+      "g6g5",
+      "i0h0",
+      "i9h9",
+      "h0h6",
+      "b9c7",
+      "c3c4",
+      "h7i7",
+      "h6g6",
+      "i7i8",
+      "b0c2",
+      "i8g8",
+      "g6f6",
+      "d9e8",
+      "c2d4",
+      "h9h4",
+      "b2b4",
+      "c9e7",
+      "e2d2",
+      "c6c5",
+      "g3g4",
+      "h4h5",
+      "c4c5",
+      "e7c5",
+      "b4c4",
+      "c7d5",
+      "f6f8",
+      "b7b8",
+      "d2d5",
+      "b8f8",
+      "d5h5",
+      "a9d9",
+      "d4f5",
+      "g7h5",
+      "g4g5",
+      "h5g3",
+      "c0e2",
+      "g3f5",
+      "g5f5",
+      "d9d4",
+      "f0e1",
+      "f8f6"
+    ]
+  },
+  "infos": [
+    {
+      "raw": "info depth 1 seldepth 3 multipv 1 score cp -16 nodes 51 nps 51000 hashfull 0 tbhits 0 time 1 pv c3c4",
+      "depth": 1,
+      "seldepth": 3,
+      "nodes": 51,
+      "nps": 51000,
+      "time_ms": 1,
+      "score_type": "cp",
+      "score": -16,
+      "pv": [
+        "c3c4"
+      ]
+    },
+    {
+      "raw": "info depth 2 seldepth 3 multipv 1 score cp 15 nodes 106 nps 106000 hashfull 0 tbhits 0 time 1 pv c3c4",
+      "depth": 2,
+      "seldepth": 3,
+      "nodes": 106,
+      "nps": 106000,
+      "time_ms": 1,
+      "score_type": "cp",
+      "score": 15,
+      "pv": [
+        "c3c4"
+      ]
+    },
+    {
+      "raw": "info depth 3 seldepth 4 multipv 1 score cp 41 nodes 168 nps 168000 hashfull 0 tbhits 0 time 1 pv c3c4",
+      "depth": 3,
+      "seldepth": 4,
+      "nodes": 168,
+      "nps": 168000,
+      "time_ms": 1,
+      "score_type": "cp",
+      "score": 41,
+      "pv": [
+        "c3c4"
+      ]
+    },
+    {
+      "raw": "info depth 4 seldepth 5 multipv 1 score cp 56 nodes 699 nps 116500 hashfull 0 tbhits 0 time 6 pv g3g4",
+      "depth": 4,
+      "seldepth": 5,
+      "nodes": 699,
+      "nps": 116500,
+      "time_ms": 6,
+      "score_type": "cp",
+      "score": 56,
+      "pv": [
+        "g3g4"
+      ]
+    },
+    {
+      "raw": "info depth 5 seldepth 8 multipv 1 score cp 37 nodes 2347 nps 195583 hashfull 1 tbhits 0 time 12 pv b2e2 b9c7 b0c2 a9b9 a0b0 c6c5",
+      "depth": 5,
+      "seldepth": 8,
+      "nodes": 2347,
+      "nps": 195583,
+      "time_ms": 12,
+      "score_type": "cp",
+      "score": 37,
+      "pv": [
+        "b2e2",
+        "b9c7",
+        "b0c2",
+        "a9b9",
+        "a0b0",
+        "c6c5"
+      ]
+    },
+    {
+      "raw": "info depth 6 seldepth 7 multipv 1 score cp 37 nodes 2403 nps 200250 hashfull 1 tbhits 0 time 12 pv b2e2 b9c7 b0c2 a9b9 a0b0 c6c5",
+      "depth": 6,
+      "seldepth": 7,
+      "nodes": 2403,
+      "nps": 200250,
+      "time_ms": 12,
+      "score_type": "cp",
+      "score": 37,
+      "pv": [
+        "b2e2",
+        "b9c7",
+        "b0c2",
+        "a9b9",
+        "a0b0",
+        "c6c5"
+      ]
+    },
+    {
+      "raw": "info depth 7 seldepth 11 multipv 1 score cp 36 nodes 2749 nps 211461 hashfull 2 tbhits 0 time 13 pv b2e2 b9c7 b0c2 a9b9 a0b0 g9e7 h0g2 g6g5",
+      "depth": 7,
+      "seldepth": 11,
+      "nodes": 2749,
+      "nps": 211461,
+      "time_ms": 13,
+      "score_type": "cp",
+      "score": 36,
+      "pv": [
+        "b2e2",
+        "b9c7",
+        "b0c2",
+        "a9b9",
+        "a0b0",
+        "g9e7",
+        "h0g2",
+        "g6g5"
+      ]
+    },
+    {
+      "raw": "info depth 8 seldepth 18 multipv 1 score cp 29 nodes 7966 nps 318640 hashfull 3 tbhits 0 time 25 pv c3c4 g6g5 g0e2 b9a7 b0c2 h9g7 g3g4 g5g4",
+      "depth": 8,
+      "seldepth": 18,
+      "nodes": 7966,
+      "nps": 318640,
+      "time_ms": 25,
+      "score_type": "cp",
+      "score": 29,
+      "pv": [
+        "c3c4",
+        "g6g5",
+        "g0e2",
+        "b9a7",
+        "b0c2",
+        "h9g7",
+        "g3g4",
+        "g5g4"
+      ]
+    },
+    {
+      "raw": "info depth 9 seldepth 12 multipv 1 score cp 31 nodes 9189 nps 340333 hashfull 4 tbhits 0 time 27 pv c3c4 h7e7 h0g2 h9g7 i0h0 i9h9 b0c2",
+      "depth": 9,
+      "seldepth": 12,
+      "nodes": 9189,
+      "nps": 340333,
+      "time_ms": 27,
+      "score_type": "cp",
+      "score": 31,
+      "pv": [
+        "c3c4",
+        "h7e7",
+        "h0g2",
+        "h9g7",
+        "i0h0",
+        "i9h9",
+        "b0c2"
+      ]
+    },
+    {
+      "raw": "info depth 10 seldepth 13 multipv 1 score cp 29 nodes 15810 nps 416052 hashfull 8 tbhits 0 time 38 pv c3c4 b7c7 h2e2 h9g7 b0c2 c6c5 c2d4 c5c4 d4f5",
+      "depth": 10,
+      "seldepth": 13,
+      "nodes": 15810,
+      "nps": 416052,
+      "time_ms": 38,
+      "score_type": "cp",
+      "score": 29,
+      "pv": [
+        "c3c4",
+        "b7c7",
+        "h2e2",
+        "h9g7",
+        "b0c2",
+        "c6c5",
+        "c2d4",
+        "c5c4",
+        "d4f5"
+      ]
+    },
+    {
+      "raw": "info depth 11 seldepth 16 multipv 1 score cp 30 nodes 19518 nps 453906 hashfull 10 tbhits 0 time 43 pv h2e2 h9g7 h0g2 c6c5 i0h0 i9h9 b2c2 g6g5",
+      "depth": 11,
+      "seldepth": 16,
+      "nodes": 19518,
+      "nps": 453906,
+      "time_ms": 43,
+      "score_type": "cp",
+      "score": 30,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "c6c5",
+        "i0h0",
+        "i9h9",
+        "b2c2",
+        "g6g5"
+      ]
+    },
+    {
+      "raw": "info depth 12 seldepth 24 multipv 1 score cp 27 nodes 45245 nps 572721 hashfull 21 tbhits 0 time 79 pv h2e2 h9g7 h0g2 i9h9 i0h0 h7h3 c3c4 g6g5 b2b4 b7c7 g3g4 c6c5 b4a4 c5c4",
+      "depth": 12,
+      "seldepth": 24,
+      "nodes": 45245,
+      "nps": 572721,
+      "time_ms": 79,
+      "score_type": "cp",
+      "score": 27,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "i9h9",
+        "i0h0",
+        "h7h3",
+        "c3c4",
+        "g6g5",
+        "b2b4",
+        "b7c7",
+        "g3g4",
+        "c6c5",
+        "b4a4",
+        "c5c4"
+      ]
+    },
+    {
+      "raw": "info depth 13 seldepth 28 multipv 1 score cp 23 nodes 88388 nps 707104 hashfull 34 tbhits 0 time 125 pv c3c4 b7c7 c0e2 b9a7 b0c2 a9b9 a0b0 h9g7 g3g4 b9b5 h0g2",
+      "depth": 13,
+      "seldepth": 28,
+      "nodes": 88388,
+      "nps": 707104,
+      "time_ms": 125,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "c3c4",
+        "b7c7",
+        "c0e2",
+        "b9a7",
+        "b0c2",
+        "a9b9",
+        "a0b0",
+        "h9g7",
+        "g3g4",
+        "b9b5",
+        "h0g2"
+      ]
+    },
+    {
+      "raw": "info depth 14 seldepth 23 multipv 1 score cp 23 nodes 160229 nps 781604 hashfull 66 tbhits 0 time 205 pv h2e2 h9g7 g3g4 i9h9 h0g2 h7i7 b0c2 h9h5 i0h0 h5h0 g2h0 c6c5 b2a2 b9c7",
+      "depth": 14,
+      "seldepth": 23,
+      "nodes": 160229,
+      "nps": 781604,
+      "time_ms": 205,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "g3g4",
+        "i9h9",
+        "h0g2",
+        "h7i7",
+        "b0c2",
+        "h9h5",
+        "i0h0",
+        "h5h0",
+        "g2h0",
+        "c6c5",
+        "b2a2",
+        "b9c7"
+      ]
+    },
+    {
+      "raw": "info depth 15 seldepth 26 multipv 1 score cp 23 nodes 175804 nps 788358 hashfull 73 tbhits 0 time 223 pv c3c4 b7c7 h2e2 h7e7 h0g2 h9g7 i0h0 b9a7 b0a2 a9b9 a0b0 i9i8 h0h6 i8d8 h6g6 d8d4 g3g4 d4c4 b2b6",
+      "depth": 15,
+      "seldepth": 26,
+      "nodes": 175804,
+      "nps": 788358,
+      "time_ms": 223,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "c3c4",
+        "b7c7",
+        "h2e2",
+        "h7e7",
+        "h0g2",
+        "h9g7",
+        "i0h0",
+        "b9a7",
+        "b0a2",
+        "a9b9",
+        "a0b0",
+        "i9i8",
+        "h0h6",
+        "i8d8",
+        "h6g6",
+        "d8d4",
+        "g3g4",
+        "d4c4",
+        "b2b6"
+      ]
+    },
+    {
+      "raw": "info depth 16 seldepth 26 multipv 1 score cp 27 nodes 244539 nps 823363 hashfull 104 tbhits 0 time 297 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 c6c5 b2d2 b9c7 b0a2 a9a7 a0b0 h7h8 b0b4 h8b8 h6h9 g7h9 b4h4",
+      "depth": 16,
+      "seldepth": 26,
+      "nodes": 244539,
+      "nps": 823363,
+      "time_ms": 297,
+      "score_type": "cp",
+      "score": 27,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "c6c5",
+        "b2d2",
+        "b9c7",
+        "b0a2",
+        "a9a7",
+        "a0b0",
+        "h7h8",
+        "b0b4",
+        "h8b8",
+        "h6h9",
+        "g7h9",
+        "b4h4"
+      ]
+    },
+    {
+      "raw": "info depth 17 seldepth 34 multipv 1 score cp 24 nodes 463920 nps 897330 hashfull 190 tbhits 0 time 517 pv h2f2 g6g5 h0i2 h9g7 b2e2 c6c5 b0c2 b9c7 i0h0 i9h9 a0b0 a9b9 b0b6 h7h6 b6b4 b7a7 b4b9 c7b9 h0h4 b9c7",
+      "depth": 17,
+      "seldepth": 34,
+      "nodes": 463920,
+      "nps": 897330,
+      "time_ms": 517,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2f2",
+        "g6g5",
+        "h0i2",
+        "h9g7",
+        "b2e2",
+        "c6c5",
+        "b0c2",
+        "b9c7",
+        "i0h0",
+        "i9h9",
+        "a0b0",
+        "a9b9",
+        "b0b6",
+        "h7h6",
+        "b6b4",
+        "b7a7",
+        "b4b9",
+        "c7b9",
+        "h0h4",
+        "b9c7"
+      ]
+    },
+    {
+      "raw": "info depth 18 seldepth 27 multipv 1 score cp 20 nodes 545003 nps 911376 hashfull 218 tbhits 0 time 598 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 c3c4 c9e7 b2d2 h7h3 b0c2 b7d7 a0b0 b9c7",
+      "depth": 18,
+      "seldepth": 27,
+      "nodes": 545003,
+      "nps": 911376,
+      "time_ms": 598,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "c3c4",
+        "c9e7",
+        "b2d2",
+        "h7h3",
+        "b0c2",
+        "b7d7",
+        "a0b0",
+        "b9c7"
+      ]
+    },
+    {
+      "raw": "info depth 19 seldepth 28 multipv 1 score cp 25 nodes 705247 nps 934101 hashfull 279 tbhits 0 time 755 pv b2d2 b9c7 h2e2 c6c5 h0g2 h9g7 b0a2 a9b9 i0h0 i9h9 a0b0 g6g5 h0h4 h7i7 h4h9 g7h9 b0b4 b7a7 b4b9",
+      "depth": 19,
+      "seldepth": 28,
+      "nodes": 705247,
+      "nps": 934101,
+      "time_ms": 755,
+      "score_type": "cp",
+      "score": 25,
+      "pv": [
+        "b2d2",
+        "b9c7",
+        "h2e2",
+        "c6c5",
+        "h0g2",
+        "h9g7",
+        "b0a2",
+        "a9b9",
+        "i0h0",
+        "i9h9",
+        "a0b0",
+        "g6g5",
+        "h0h4",
+        "h7i7",
+        "h4h9",
+        "g7h9",
+        "b0b4",
+        "b7a7",
+        "b4b9"
+      ]
+    },
+    {
+      "raw": "info depth 20 seldepth 29 multipv 1 score cp 25 nodes 923198 nps 949792 hashfull 362 tbhits 0 time 972 pv b2d2 h7d7 h0g2 b9a7 g3g4 a9b9 h2i2 h9g7 i0h0 b7b2 b0c2 b2d2 i2d2 f9e8",
+      "depth": 20,
+      "seldepth": 29,
+      "nodes": 923198,
+      "nps": 949792,
+      "time_ms": 972,
+      "score_type": "cp",
+      "score": 25,
+      "pv": [
+        "b2d2",
+        "h7d7",
+        "h0g2",
+        "b9a7",
+        "g3g4",
+        "a9b9",
+        "h2i2",
+        "h9g7",
+        "i0h0",
+        "b7b2",
+        "b0c2",
+        "b2d2",
+        "i2d2",
+        "f9e8"
+      ]
+    },
+    {
+      "raw": "info depth 21 seldepth 30 multipv 1 score cp 23 nodes 1371031 nps 949467 hashfull 523 tbhits 0 time 1444 pv g3g4 h7g7 b2e2 c9e7 h0i2 h9i7 i0h0 i9h9 h2h6 b9d8 b0a2 g6g5 g4g5 e7g5 a0b0 b7e7 f0e1 e7e3 b0b4 a9b9 b4d4",
+      "depth": 21,
+      "seldepth": 30,
+      "nodes": 1371031,
+      "nps": 949467,
+      "time_ms": 1444,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "g3g4",
+        "h7g7",
+        "b2e2",
+        "c9e7",
+        "h0i2",
+        "h9i7",
+        "i0h0",
+        "i9h9",
+        "h2h6",
+        "b9d8",
+        "b0a2",
+        "g6g5",
+        "g4g5",
+        "e7g5",
+        "a0b0",
+        "b7e7",
+        "f0e1",
+        "e7e3",
+        "b0b4",
+        "a9b9",
+        "b4d4"
+      ]
+    },
+    {
+      "raw": "info depth 22 seldepth 36 multipv 1 score cp 20 nodes 2219023 nps 974966 hashfull 735 tbhits 0 time 2276 pv g3g4 h7g7 b2e2 c9e7 h0i2 h9i7 i0h0 i9h9 h2h6 b9d8 b0a2 g6g5 g4g5 g7g0 f0e1 e7g5 i2g1 b7g7 a0b0 g7g1 h0g0 g5e7",
+      "depth": 22,
+      "seldepth": 36,
+      "nodes": 2219023,
+      "nps": 974966,
+      "time_ms": 2276,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "g3g4",
+        "h7g7",
+        "b2e2",
+        "c9e7",
+        "h0i2",
+        "h9i7",
+        "i0h0",
+        "i9h9",
+        "h2h6",
+        "b9d8",
+        "b0a2",
+        "g6g5",
+        "g4g5",
+        "g7g0",
+        "f0e1",
+        "e7g5",
+        "i2g1",
+        "b7g7",
+        "a0b0",
+        "g7g1",
+        "h0g0",
+        "g5e7"
+      ]
+    },
+    {
+      "raw": "info depth 23 seldepth 27 multipv 1 score cp 23 nodes 2355827 nps 978333 hashfull 758 tbhits 0 time 2408 pv g3g4 h7g7 b2e2 g9e7 b0c2 g6g5 a0b0 g5g4 g0i2 a9a8 e2e6 f9e8 i2g4 b9c7 e6e5 c7e6 h0g2 e6g5 g2f4 a8d8 h2f2 h9i7",
+      "depth": 23,
+      "seldepth": 27,
+      "nodes": 2355827,
+      "nps": 978333,
+      "time_ms": 2408,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "g3g4",
+        "h7g7",
+        "b2e2",
+        "g9e7",
+        "b0c2",
+        "g6g5",
+        "a0b0",
+        "g5g4",
+        "g0i2",
+        "a9a8",
+        "e2e6",
+        "f9e8",
+        "i2g4",
+        "b9c7",
+        "e6e5",
+        "c7e6",
+        "h0g2",
+        "e6g5",
+        "g2f4",
+        "a8d8",
+        "h2f2",
+        "h9i7"
+      ]
+    },
+    {
+      "raw": "info depth 24 seldepth 35 multipv 1 score cp 21 nodes 2988678 nps 990284 hashfull 850 tbhits 0 time 3018 pv h2e2 h9g7 g3g4 i9h9 h0g2 h7i7 b0c2 c6c5 b2b6 b9c7 b6g6 g9e7 a0b0 a9b9 b0b4 b7a7 b4b9 c7b9 i0h0 h9h0 g2h0 b9c7",
+      "depth": 24,
+      "seldepth": 35,
+      "nodes": 2988678,
+      "nps": 990284,
+      "time_ms": 3018,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "g3g4",
+        "i9h9",
+        "h0g2",
+        "h7i7",
+        "b0c2",
+        "c6c5",
+        "b2b6",
+        "b9c7",
+        "b6g6",
+        "g9e7",
+        "a0b0",
+        "a9b9",
+        "b0b4",
+        "b7a7",
+        "b4b9",
+        "c7b9",
+        "i0h0",
+        "h9h0",
+        "g2h0",
+        "b9c7"
+      ]
+    },
+    {
+      "raw": "info depth 25 seldepth 33 multipv 1 score cp 25 nodes 4041694 nps 987947 hashfull 948 tbhits 0 time 4091 pv c3c4 g6g5 h2g2 h7e7 b2e2 h9g7 b0c2 b9a7 h0i2 i9h9 a0b0 b7c7 b0b5 a9b9 b5g5 b9b3 i0h0 h9h0 i2h0 b3c3",
+      "depth": 25,
+      "seldepth": 33,
+      "nodes": 4041694,
+      "nps": 987947,
+      "time_ms": 4091,
+      "score_type": "cp",
+      "score": 25,
+      "pv": [
+        "c3c4",
+        "g6g5",
+        "h2g2",
+        "h7e7",
+        "b2e2",
+        "h9g7",
+        "b0c2",
+        "b9a7",
+        "h0i2",
+        "i9h9",
+        "a0b0",
+        "b7c7",
+        "b0b5",
+        "a9b9",
+        "b5g5",
+        "b9b3",
+        "i0h0",
+        "h9h0",
+        "i2h0",
+        "b3c3"
+      ]
+    },
+    {
+      "raw": "info depth 26 seldepth 34 multipv 1 score cp 24 nodes 5578177 nps 985717 hashfull 986 tbhits 0 time 5659 pv c3c4 g6g5 h2g2 c9e7 h0i2 h9g7 i0h0 i9h9 b0c2 h7h3 a0a1 b7c7 g0e2 c6c5 c4c5 c7c2 g2c2 h3e3 f0e1 h9h0 i2h0 e7c5 h0g2",
+      "depth": 26,
+      "seldepth": 34,
+      "nodes": 5578177,
+      "nps": 985717,
+      "time_ms": 5659,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "c3c4",
+        "g6g5",
+        "h2g2",
+        "c9e7",
+        "h0i2",
+        "h9g7",
+        "i0h0",
+        "i9h9",
+        "b0c2",
+        "h7h3",
+        "a0a1",
+        "b7c7",
+        "g0e2",
+        "c6c5",
+        "c4c5",
+        "c7c2",
+        "g2c2",
+        "h3e3",
+        "f0e1",
+        "h9h0",
+        "i2h0",
+        "e7c5",
+        "h0g2"
+      ]
+    },
+    {
+      "raw": "info depth 27 seldepth 36 multipv 1 score cp 22 nodes 7858873 nps 983958 hashfull 999 tbhits 0 time 7987 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 c3c4 h7i7 h6g6 i7i8 b2d2 i8g8 g6f6 f9e8 b0c2 a9b9 a0b0 g9e7 f6f8 g8g9 b0b6 b7a7 b6b9 c7b9 c2d4",
+      "depth": 27,
+      "seldepth": 36,
+      "nodes": 7858873,
+      "nps": 983958,
+      "time_ms": 7987,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "c3c4",
+        "h7i7",
+        "h6g6",
+        "i7i8",
+        "b2d2",
+        "i8g8",
+        "g6f6",
+        "f9e8",
+        "b0c2",
+        "a9b9",
+        "a0b0",
+        "g9e7",
+        "f6f8",
+        "g8g9",
+        "b0b6",
+        "b7a7",
+        "b6b9",
+        "c7b9",
+        "c2d4"
+      ]
+    },
+    {
+      "raw": "info depth 28 seldepth 38 multipv 1 score cp 23 nodes 8233370 nps 980980 hashfull 999 tbhits 0 time 8393 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 b0c2 c6c5 e3e4 b7b6 h6h4 c9e7 c2e3 h7h5 b2d2 a9b9 a0b0 b6b3 f0e1 f9e8 c3c4 b3g3 b0b9 c7b9 d2b2 b9c7",
+      "depth": 28,
+      "seldepth": 38,
+      "nodes": 8233370,
+      "nps": 980980,
+      "time_ms": 8393,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "b0c2",
+        "c6c5",
+        "e3e4",
+        "b7b6",
+        "h6h4",
+        "c9e7",
+        "c2e3",
+        "h7h5",
+        "b2d2",
+        "a9b9",
+        "a0b0",
+        "b6b3",
+        "f0e1",
+        "f9e8",
+        "c3c4",
+        "b3g3",
+        "b0b9",
+        "c7b9",
+        "d2b2",
+        "b9c7"
+      ]
+    },
+    {
+      "raw": "info depth 29 seldepth 40 multipv 1 score cp 19 lowerbound nodes 10162264 nps 973490 hashfull 1000 tbhits 0 time 10439 pv h2e2",
+      "depth": 29,
+      "seldepth": 40,
+      "nodes": 10162264,
+      "nps": 973490,
+      "time_ms": 10439,
+      "score_type": "cp",
+      "score": 19,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 28 currmove h2e2 currmovenumber 1",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b9 currmovenumber 2",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h9 currmovenumber 3",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove c3c4 currmovenumber 4",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove g3g4 currmovenumber 5",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h0g2 currmovenumber 6",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2e2 currmovenumber 7",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b6 currmovenumber 8",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b0a2 currmovenumber 9",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b0c2 currmovenumber 10",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove i0i1 currmovenumber 11",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2c2 currmovenumber 12",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2c2 currmovenumber 13",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove a0a1 currmovenumber 14",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2g2 currmovenumber 15",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2g2 currmovenumber 16",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove e3e4 currmovenumber 17",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b4 currmovenumber 18",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove f0e1 currmovenumber 19",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove c0e2 currmovenumber 20",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b3 currmovenumber 21",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove i0i2 currmovenumber 22",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b1 currmovenumber 23",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b5 currmovenumber 24",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove e0e1 currmovenumber 25",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h5 currmovenumber 26",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove c0a2 currmovenumber 27",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove a0a2 currmovenumber 28",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2d2 currmovenumber 29",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2f2 currmovenumber 30",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h3 currmovenumber 31",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove g0i2 currmovenumber 32",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h4 currmovenumber 33",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2d2 currmovenumber 34",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h1 currmovenumber 35",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove i3i4 currmovenumber 36",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2f2 currmovenumber 37",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove d0e1 currmovenumber 38",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2a2 currmovenumber 39",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h6 currmovenumber 40",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h0i2 currmovenumber 41",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2i2 currmovenumber 42",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove g0e2 currmovenumber 43",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove a3a4 currmovenumber 44",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 29 seldepth 44 multipv 1 score cp 24 nodes 10329694 nps 973030 hashfull 1000 tbhits 0 time 10616 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 b0c2 g7f5 b2a2 a9b9 a0b0 b7b3 c3c4 g5g4 h6h5 f5g7 h5h6 b3g3 b0b9 g3g0 e0e1 c7b9",
+      "depth": 29,
+      "seldepth": 44,
+      "nodes": 10329694,
+      "nps": 973030,
+      "time_ms": 10616,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "b0c2",
+        "g7f5",
+        "b2a2",
+        "a9b9",
+        "a0b0",
+        "b7b3",
+        "c3c4",
+        "g5g4",
+        "h6h5",
+        "f5g7",
+        "h5h6",
+        "b3g3",
+        "b0b9",
+        "g3g0",
+        "e0e1",
+        "c7b9"
+      ]
+    },
+    {
+      "raw": "info depth 30 currmove h2e2 currmovenumber 1",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 seldepth 37 multipv 1 score cp 25 lowerbound nodes 10769217 nps 970899 hashfull 1000 tbhits 0 time 11092 pv h2e2",
+      "depth": 30,
+      "seldepth": 37,
+      "nodes": 10769217,
+      "nps": 970899,
+      "time_ms": 11092,
+      "score_type": "cp",
+      "score": 25,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 29 currmove h2e2 currmovenumber 1",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b9 currmovenumber 2",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h9 currmovenumber 3",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g3g4 currmovenumber 4",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c3c4 currmovenumber 5",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h0g2 currmovenumber 6",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b0c2 currmovenumber 7",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove e3e4 currmovenumber 8",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c0e2 currmovenumber 9",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b4 currmovenumber 10",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2e2 currmovenumber 11",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b3 currmovenumber 12",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i0i2 currmovenumber 13",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g0e2 currmovenumber 14",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2a2 currmovenumber 15",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h4 currmovenumber 16",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a0a2 currmovenumber 17",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2g2 currmovenumber 18",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h0i2 currmovenumber 19",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b1 currmovenumber 20",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h1 currmovenumber 21",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b6 currmovenumber 22",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2d2 currmovenumber 23",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h5 currmovenumber 24",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b5 currmovenumber 25",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove e0e1 currmovenumber 26",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c0a2 currmovenumber 27",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h3 currmovenumber 28",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i3i4 currmovenumber 29",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b0a2 currmovenumber 30",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2f2 currmovenumber 31",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2d2 currmovenumber 32",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2c2 currmovenumber 33",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g0i2 currmovenumber 34",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i0i1 currmovenumber 35",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove d0e1 currmovenumber 36",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2f2 currmovenumber 37",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove f0e1 currmovenumber 38",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a0a1 currmovenumber 39",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2c2 currmovenumber 40",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2g2 currmovenumber 41",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h6 currmovenumber 42",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2i2 currmovenumber 43",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a3a4 currmovenumber 44",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 30 seldepth 42 multipv 1 score cp 22 upperbound nodes 11562647 nps 966938 hashfull 1000 tbhits 0 time 11958 pv h2e2 h9g7",
+      "depth": 30,
+      "seldepth": 42,
+      "nodes": 11562647,
+      "nps": 966938,
+      "time_ms": 11958,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 30 currmove h2e2 currmovenumber 1",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 seldepth 44 multipv 1 score cp 22 lowerbound nodes 11608281 nps 966712 hashfull 1000 tbhits 0 time 12008 pv h2e2",
+      "depth": 30,
+      "seldepth": 44,
+      "nodes": 11608281,
+      "nps": 966712,
+      "time_ms": 12008,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 29 currmove h2e2 currmovenumber 1",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 30 seldepth 44 multipv 1 score cp 26 lowerbound nodes 11684102 nps 966986 hashfull 1000 tbhits 0 time 12083 pv h2e2",
+      "depth": 30,
+      "seldepth": 44,
+      "nodes": 11684102,
+      "nps": 966986,
+      "time_ms": 12083,
+      "score_type": "cp",
+      "score": 26,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 28 currmove h2e2 currmovenumber 1",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b9 currmovenumber 2",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h9 currmovenumber 3",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove c3c4 currmovenumber 4",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove g3g4 currmovenumber 5",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h0g2 currmovenumber 6",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b0c2 currmovenumber 7",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove e3e4 currmovenumber 8",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b3 currmovenumber 9",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h5 currmovenumber 10",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove i0i2 currmovenumber 11",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b1 currmovenumber 12",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h0i2 currmovenumber 13",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b6 currmovenumber 14",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2g2 currmovenumber 15",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2d2 currmovenumber 16",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b5 currmovenumber 17",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove c0a2 currmovenumber 18",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h1 currmovenumber 19",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove a0a2 currmovenumber 20",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove e0e1 currmovenumber 21",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2b4 currmovenumber 22",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2f2 currmovenumber 23",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2f2 currmovenumber 24",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h3 currmovenumber 25",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove d0e1 currmovenumber 26",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove c0e2 currmovenumber 27",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove g0i2 currmovenumber 28",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove i3i4 currmovenumber 29",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2d2 currmovenumber 30",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove a0a1 currmovenumber 31",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2c2 currmovenumber 32",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove i0i1 currmovenumber 33",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove g0e2 currmovenumber 34",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2a2 currmovenumber 35",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h4 currmovenumber 36",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2c2 currmovenumber 37",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove f0e1 currmovenumber 38",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2g2 currmovenumber 39",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b0a2 currmovenumber 40",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2i2 currmovenumber 41",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove h2h6 currmovenumber 42",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove a3a4 currmovenumber 43",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 28 currmove b2e2 currmovenumber 44",
+      "depth": 28
+    },
+    {
+      "raw": "info depth 30 seldepth 46 multipv 1 score cp 21 upperbound nodes 12277998 nps 964872 hashfull 1000 tbhits 0 time 12725 pv h2e2 h9g7",
+      "depth": 30,
+      "seldepth": 46,
+      "nodes": 12277998,
+      "nps": 964872,
+      "time_ms": 12725,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 30 currmove h2e2 currmovenumber 1",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 seldepth 46 multipv 1 score cp 21 lowerbound nodes 14012237 nps 957839 hashfull 1000 tbhits 0 time 14629 pv h2e2",
+      "depth": 30,
+      "seldepth": 46,
+      "nodes": 14012237,
+      "nps": 957839,
+      "time_ms": 14629,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 29 currmove h2e2 currmovenumber 1",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h9 currmovenumber 2",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b9 currmovenumber 3",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c3c4 currmovenumber 4",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h0g2 currmovenumber 5",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g3g4 currmovenumber 6",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2e2 currmovenumber 7",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h4 currmovenumber 8",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove e3e4 currmovenumber 9",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b4 currmovenumber 10",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h5 currmovenumber 11",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove d0e1 currmovenumber 12",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove f0e1 currmovenumber 13",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i0i1 currmovenumber 14",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a0a2 currmovenumber 15",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2d2 currmovenumber 16",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h0i2 currmovenumber 17",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2f2 currmovenumber 18",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b5 currmovenumber 19",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b3 currmovenumber 20",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b1 currmovenumber 21",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i0i2 currmovenumber 22",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove e0e1 currmovenumber 23",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h1 currmovenumber 24",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c0a2 currmovenumber 25",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h3 currmovenumber 26",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2f2 currmovenumber 27",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2a2 currmovenumber 28",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g0i2 currmovenumber 29",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i3i4 currmovenumber 30",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2g2 currmovenumber 31",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b6 currmovenumber 32",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2d2 currmovenumber 33",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2c2 currmovenumber 34",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2g2 currmovenumber 35",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c0e2 currmovenumber 36",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a0a1 currmovenumber 37",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h6 currmovenumber 38",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2i2 currmovenumber 39",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2c2 currmovenumber 40",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g0e2 currmovenumber 41",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b0c2 currmovenumber 42",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b0a2 currmovenumber 43",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a3a4 currmovenumber 44",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 30 seldepth 46 multipv 1 score cp 28 nodes 14954806 nps 955945 hashfull 1000 tbhits 0 time 15644 pv h2e2 h9g7 g3g4 i9h9 h0g2 b7e7 b0c2 b9c7 c3c4 a9b9 a0b0 b9b5 b2a2 b5b0 c2b0 h7h4 i0h0 h4c4 h0h9 g7h9 e2e1 h9g7 g0e2 c4c3 g2f4 c6c5 a2c2 c9a7",
+      "depth": 30,
+      "seldepth": 46,
+      "nodes": 14954806,
+      "nps": 955945,
+      "time_ms": 15644,
+      "score_type": "cp",
+      "score": 28,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "g3g4",
+        "i9h9",
+        "h0g2",
+        "b7e7",
+        "b0c2",
+        "b9c7",
+        "c3c4",
+        "a9b9",
+        "a0b0",
+        "b9b5",
+        "b2a2",
+        "b5b0",
+        "c2b0",
+        "h7h4",
+        "i0h0",
+        "h4c4",
+        "h0h9",
+        "g7h9",
+        "e2e1",
+        "h9g7",
+        "g0e2",
+        "c4c3",
+        "g2f4",
+        "c6c5",
+        "a2c2",
+        "c9a7"
+      ]
+    },
+    {
+      "raw": "info depth 31 currmove h2e2 currmovenumber 1",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h9 currmovenumber 2",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b9 currmovenumber 3",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove c3c4 currmovenumber 4",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h0g2 currmovenumber 5",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove g3g4 currmovenumber 6",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2e2 currmovenumber 7",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b0c2 currmovenumber 8",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h4 currmovenumber 9",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove e3e4 currmovenumber 10",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove i0i1 currmovenumber 11",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h1 currmovenumber 12",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h6 currmovenumber 13",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2g2 currmovenumber 14",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2g2 currmovenumber 15",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2f2 currmovenumber 16",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2d2 currmovenumber 17",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove c0a2 currmovenumber 18",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove e0e1 currmovenumber 19",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove a0a2 currmovenumber 20",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b3 currmovenumber 21",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove i0i2 currmovenumber 22",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b1 currmovenumber 23",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2f2 currmovenumber 24",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b5 currmovenumber 25",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h3 currmovenumber 26",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2c2 currmovenumber 27",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h5 currmovenumber 28",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove i3i4 currmovenumber 29",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2a2 currmovenumber 30",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove g0i2 currmovenumber 31",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b4 currmovenumber 32",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2d2 currmovenumber 33",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h0i2 currmovenumber 34",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2c2 currmovenumber 35",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b6 currmovenumber 36",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove d0e1 currmovenumber 37",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove a0a1 currmovenumber 38",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove c0e2 currmovenumber 39",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove f0e1 currmovenumber 40",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2i2 currmovenumber 41",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove g0e2 currmovenumber 42",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b0a2 currmovenumber 43",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove a3a4 currmovenumber 44",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 seldepth 41 multipv 1 score cp 22 upperbound nodes 16078860 nps 950231 hashfull 1000 tbhits 0 time 16921 pv h2e2 h9g7",
+      "depth": 31,
+      "seldepth": 41,
+      "nodes": 16078860,
+      "nps": 950231,
+      "time_ms": 16921,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 31 currmove h2e2 currmovenumber 1",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 seldepth 41 multipv 1 score cp 22 lowerbound nodes 16620563 nps 947796 hashfull 1000 tbhits 0 time 17536 pv h2e2",
+      "depth": 31,
+      "seldepth": 41,
+      "nodes": 16620563,
+      "nps": 947796,
+      "time_ms": 17536,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 30 currmove h2e2 currmovenumber 1",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 31 seldepth 41 multipv 1 score cp 25 lowerbound nodes 16776508 nps 948146 hashfull 1000 tbhits 0 time 17694 pv h2e2",
+      "depth": 31,
+      "seldepth": 41,
+      "nodes": 16776508,
+      "nps": 948146,
+      "time_ms": 17694,
+      "score_type": "cp",
+      "score": 25,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 29 currmove h2e2 currmovenumber 1",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h9 currmovenumber 2",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b9 currmovenumber 3",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h0g2 currmovenumber 4",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c3c4 currmovenumber 5",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g3g4 currmovenumber 6",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h4 currmovenumber 7",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h1 currmovenumber 8",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove e3e4 currmovenumber 9",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b0c2 currmovenumber 10",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2e2 currmovenumber 11",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b4 currmovenumber 12",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a0a2 currmovenumber 13",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2g2 currmovenumber 14",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b6 currmovenumber 15",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b3 currmovenumber 16",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c0a2 currmovenumber 17",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove e0e1 currmovenumber 18",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i0i2 currmovenumber 19",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b1 currmovenumber 20",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2f2 currmovenumber 21",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2b5 currmovenumber 22",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h3 currmovenumber 23",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a0a1 currmovenumber 24",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g0i2 currmovenumber 25",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i3i4 currmovenumber 26",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2d2 currmovenumber 27",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2g2 currmovenumber 28",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2d2 currmovenumber 29",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h5 currmovenumber 30",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2h6 currmovenumber 31",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2c2 currmovenumber 32",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove i0i1 currmovenumber 33",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2f2 currmovenumber 34",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove d0e1 currmovenumber 35",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2a2 currmovenumber 36",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove f0e1 currmovenumber 37",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h2i2 currmovenumber 38",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove h0i2 currmovenumber 39",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b2c2 currmovenumber 40",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove c0e2 currmovenumber 41",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove g0e2 currmovenumber 42",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove b0a2 currmovenumber 43",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 29 currmove a3a4 currmovenumber 44",
+      "depth": 29
+    },
+    {
+      "raw": "info depth 31 seldepth 43 multipv 1 score cp 21 upperbound nodes 17146433 nps 947945 hashfull 1000 tbhits 0 time 18088 pv h2e2 h9g7",
+      "depth": 31,
+      "seldepth": 43,
+      "nodes": 17146433,
+      "nps": 947945,
+      "time_ms": 18088,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 31 currmove h2e2 currmovenumber 1",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 seldepth 43 multipv 1 score cp 21 lowerbound nodes 17297005 nps 948040 hashfull 1000 tbhits 0 time 18245 pv h2e2",
+      "depth": 31,
+      "seldepth": 43,
+      "nodes": 17297005,
+      "nps": 948040,
+      "time_ms": 18245,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 30 currmove h2e2 currmovenumber 1",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2b9 currmovenumber 2",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2h9 currmovenumber 3",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove g3g4 currmovenumber 4",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h0g2 currmovenumber 5",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove c3c4 currmovenumber 6",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2e2 currmovenumber 7",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b0c2 currmovenumber 8",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2a2 currmovenumber 9",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove a0a1 currmovenumber 10",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove e3e4 currmovenumber 11",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2b4 currmovenumber 12",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2g2 currmovenumber 13",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2b6 currmovenumber 14",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2c2 currmovenumber 15",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2d2 currmovenumber 16",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2c2 currmovenumber 17",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2h1 currmovenumber 18",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2f2 currmovenumber 19",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2d2 currmovenumber 20",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove c0e2 currmovenumber 21",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove a0a2 currmovenumber 22",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2b1 currmovenumber 23",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove e0e1 currmovenumber 24",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2b5 currmovenumber 25",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2g2 currmovenumber 26",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove c0a2 currmovenumber 27",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove i0i2 currmovenumber 28",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b2b3 currmovenumber 29",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2h3 currmovenumber 30",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2h5 currmovenumber 31",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove g0i2 currmovenumber 32",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove a3a4 currmovenumber 33",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove i3i4 currmovenumber 34",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove d0e1 currmovenumber 35",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2f2 currmovenumber 36",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove f0e1 currmovenumber 37",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2h4 currmovenumber 38",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove b0a2 currmovenumber 39",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove i0i1 currmovenumber 40",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2i2 currmovenumber 41",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h2h6 currmovenumber 42",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove g0e2 currmovenumber 43",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 30 currmove h0i2 currmovenumber 44",
+      "depth": 30
+    },
+    {
+      "raw": "info depth 31 seldepth 44 multipv 1 score cp 24 nodes 17921329 nps 947516 hashfull 1000 tbhits 0 time 18914 pv h2e2 h9g7 g3g4 b7e7 h0g2 b9c7 i0h0 a9b9 b0c2 i9h9 a0b0 b9b4 e2e1 h7h3 c0e2 h3c3 h0h9 g7h9 b2a2 b4b0 c2b0 c6c5 e1c1 e7d7 g2f4 g9e7 b0d1 c3c2 d1c3 h9f8 a3a4",
+      "depth": 31,
+      "seldepth": 44,
+      "nodes": 17921329,
+      "nps": 947516,
+      "time_ms": 18914,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "g3g4",
+        "b7e7",
+        "h0g2",
+        "b9c7",
+        "i0h0",
+        "a9b9",
+        "b0c2",
+        "i9h9",
+        "a0b0",
+        "b9b4",
+        "e2e1",
+        "h7h3",
+        "c0e2",
+        "h3c3",
+        "h0h9",
+        "g7h9",
+        "b2a2",
+        "b4b0",
+        "c2b0",
+        "c6c5",
+        "e1c1",
+        "e7d7",
+        "g2f4",
+        "g9e7",
+        "b0d1",
+        "c3c2",
+        "d1c3",
+        "h9f8",
+        "a3a4"
+      ]
+    },
+    {
+      "raw": "info depth 32 currmove h2e2 currmovenumber 1",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 seldepth 45 multipv 1 score cp 25 lowerbound nodes 18557382 nps 946756 hashfull 1000 tbhits 0 time 19601 pv h2e2",
+      "depth": 32,
+      "seldepth": 45,
+      "nodes": 18557382,
+      "nps": 946756,
+      "time_ms": 19601,
+      "score_type": "cp",
+      "score": 25,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 31 currmove h2e2 currmovenumber 1",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h9 currmovenumber 2",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b9 currmovenumber 3",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h0g2 currmovenumber 4",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove c3c4 currmovenumber 5",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove g3g4 currmovenumber 6",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2e2 currmovenumber 7",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2f2 currmovenumber 8",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2g2 currmovenumber 9",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove e3e4 currmovenumber 10",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b0c2 currmovenumber 11",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2i2 currmovenumber 12",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2d2 currmovenumber 13",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove i0i2 currmovenumber 14",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b6 currmovenumber 15",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b3 currmovenumber 16",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2d2 currmovenumber 17",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h1 currmovenumber 18",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h3 currmovenumber 19",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove d0e1 currmovenumber 20",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove c0a2 currmovenumber 21",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove i3i4 currmovenumber 22",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b5 currmovenumber 23",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove e0e1 currmovenumber 24",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2f2 currmovenumber 25",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b1 currmovenumber 26",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove a3a4 currmovenumber 27",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h4 currmovenumber 28",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove a0a2 currmovenumber 29",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove g0i2 currmovenumber 30",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2g2 currmovenumber 31",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove c0e2 currmovenumber 32",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h5 currmovenumber 33",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2h6 currmovenumber 34",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove i0i1 currmovenumber 35",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove f0e1 currmovenumber 36",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h2c2 currmovenumber 37",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2a2 currmovenumber 38",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2b4 currmovenumber 39",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b2c2 currmovenumber 40",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove a0a1 currmovenumber 41",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove g0e2 currmovenumber 42",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove h0i2 currmovenumber 43",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 31 currmove b0a2 currmovenumber 44",
+      "depth": 31
+    },
+    {
+      "raw": "info depth 32 seldepth 45 multipv 1 score cp 24 nodes 19185167 nps 943966 hashfull 1000 tbhits 0 time 20324 pv h2e2 h9g7 g3g4 i9h9 h0g2 h7i7 c3c4 c6c5 c4c5 h9h5 c5c6 h5c5 e2f2 c5c6 c0e2 c6c5 i0h0 b9c7 b0c2 g6g5 g4g5 c5g5 g2f4 c9e7 a0c0 c7d5 f4d5 g5d5 c2b4 d5h5 h0h5 g7h5 b2b7 i7b7 b4d5",
+      "depth": 32,
+      "seldepth": 45,
+      "nodes": 19185167,
+      "nps": 943966,
+      "time_ms": 20324,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "g3g4",
+        "i9h9",
+        "h0g2",
+        "h7i7",
+        "c3c4",
+        "c6c5",
+        "c4c5",
+        "h9h5",
+        "c5c6",
+        "h5c5",
+        "e2f2",
+        "c5c6",
+        "c0e2",
+        "c6c5",
+        "i0h0",
+        "b9c7",
+        "b0c2",
+        "g6g5",
+        "g4g5",
+        "c5g5",
+        "g2f4",
+        "c9e7",
+        "a0c0",
+        "c7d5",
+        "f4d5",
+        "g5d5",
+        "c2b4",
+        "d5h5",
+        "h0h5",
+        "g7h5",
+        "b2b7",
+        "i7b7",
+        "b4d5"
+      ]
+    },
+    {
+      "raw": "info depth 33 currmove h2e2 currmovenumber 1",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 seldepth 47 multipv 1 score cp 26 lowerbound nodes 20206411 nps 942858 hashfull 1000 tbhits 0 time 21431 pv h2e2",
+      "depth": 33,
+      "seldepth": 47,
+      "nodes": 20206411,
+      "nps": 942858,
+      "time_ms": 21431,
+      "score_type": "cp",
+      "score": 26,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 32 currmove h2e2 currmovenumber 1",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h9 currmovenumber 2",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b9 currmovenumber 3",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0g2 currmovenumber 4",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c3c4 currmovenumber 5",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g3g4 currmovenumber 6",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0c2 currmovenumber 7",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2a2 currmovenumber 8",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h6 currmovenumber 9",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2e2 currmovenumber 10",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e3e4 currmovenumber 11",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b1 currmovenumber 12",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0e2 currmovenumber 13",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a2 currmovenumber 14",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i3i4 currmovenumber 15",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e0e1 currmovenumber 16",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0i2 currmovenumber 17",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0a2 currmovenumber 18",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b6 currmovenumber 19",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h3 currmovenumber 20",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0i2 currmovenumber 21",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b5 currmovenumber 22",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h5 currmovenumber 23",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i2 currmovenumber 24",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b3 currmovenumber 25",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h1 currmovenumber 26",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2f2 currmovenumber 27",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h4 currmovenumber 28",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2d2 currmovenumber 29",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i1 currmovenumber 30",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2c2 currmovenumber 31",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2g2 currmovenumber 32",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove d0e1 currmovenumber 33",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2d2 currmovenumber 34",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2g2 currmovenumber 35",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b4 currmovenumber 36",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove f0e1 currmovenumber 37",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0e2 currmovenumber 38",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a3a4 currmovenumber 39",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a1 currmovenumber 40",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0a2 currmovenumber 41",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2f2 currmovenumber 42",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2i2 currmovenumber 43",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2c2 currmovenumber 44",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 33 seldepth 47 multipv 1 score cp 24 upperbound nodes 21036501 nps 941820 hashfull 1000 tbhits 0 time 22336 pv h2e2 h9g7",
+      "depth": 33,
+      "seldepth": 47,
+      "nodes": 21036501,
+      "nps": 941820,
+      "time_ms": 22336,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 33 currmove h2e2 currmovenumber 1",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 seldepth 47 multipv 1 score cp 24 lowerbound nodes 21094554 nps 941805 hashfull 1000 tbhits 0 time 22398 pv h2e2",
+      "depth": 33,
+      "seldepth": 47,
+      "nodes": 21094554,
+      "nps": 941805,
+      "time_ms": 22398,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 32 currmove h2e2 currmovenumber 1",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b9 currmovenumber 2",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h9 currmovenumber 3",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0c2 currmovenumber 4",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c3c4 currmovenumber 5",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g3g4 currmovenumber 6",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0e2 currmovenumber 7",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h4 currmovenumber 8",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h1 currmovenumber 9",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0g2 currmovenumber 10",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2c2 currmovenumber 11",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i3i4 currmovenumber 12",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2a2 currmovenumber 13",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e3e4 currmovenumber 14",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0i2 currmovenumber 15",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b6 currmovenumber 16",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0i2 currmovenumber 17",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b4 currmovenumber 18",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0a2 currmovenumber 19",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i2 currmovenumber 20",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a2 currmovenumber 21",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2d2 currmovenumber 22",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e0e1 currmovenumber 23",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0a2 currmovenumber 24",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b1 currmovenumber 25",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b3 currmovenumber 26",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b5 currmovenumber 27",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h5 currmovenumber 28",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h3 currmovenumber 29",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2f2 currmovenumber 30",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i1 currmovenumber 31",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2d2 currmovenumber 32",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2g2 currmovenumber 33",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h6 currmovenumber 34",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove d0e1 currmovenumber 35",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0e2 currmovenumber 36",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2c2 currmovenumber 37",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove f0e1 currmovenumber 38",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2g2 currmovenumber 39",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a1 currmovenumber 40",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2f2 currmovenumber 41",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2i2 currmovenumber 42",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a3a4 currmovenumber 43",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2e2 currmovenumber 44",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 33 seldepth 47 multipv 1 score cp 21 upperbound nodes 22919928 nps 938303 hashfull 1000 tbhits 0 time 24427 pv h2e2 h9g7",
+      "depth": 33,
+      "seldepth": 47,
+      "nodes": 22919928,
+      "nps": 938303,
+      "time_ms": 24427,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 33 currmove h2e2 currmovenumber 1",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 seldepth 47 multipv 1 score cp 21 lowerbound nodes 23239139 nps 938196 hashfull 1000 tbhits 0 time 24770 pv h2e2",
+      "depth": 33,
+      "seldepth": 47,
+      "nodes": 23239139,
+      "nps": 938196,
+      "time_ms": 24770,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 32 currmove h2e2 currmovenumber 1",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b9 currmovenumber 2",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h9 currmovenumber 3",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2e2 currmovenumber 4",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0g2 currmovenumber 5",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c3c4 currmovenumber 6",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g3g4 currmovenumber 7",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0a2 currmovenumber 8",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e3e4 currmovenumber 9",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b4 currmovenumber 10",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0e2 currmovenumber 11",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h4 currmovenumber 12",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2g2 currmovenumber 13",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h3 currmovenumber 14",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i3i4 currmovenumber 15",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2a2 currmovenumber 16",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2c2 currmovenumber 17",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h6 currmovenumber 18",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2c2 currmovenumber 19",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2d2 currmovenumber 20",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2d2 currmovenumber 21",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2g2 currmovenumber 22",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2f2 currmovenumber 23",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0c2 currmovenumber 24",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b1 currmovenumber 25",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0i2 currmovenumber 26",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0a2 currmovenumber 27",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h1 currmovenumber 28",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e0e1 currmovenumber 29",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b5 currmovenumber 30",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i1 currmovenumber 31",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h5 currmovenumber 32",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a2 currmovenumber 33",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a1 currmovenumber 34",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b3 currmovenumber 35",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i2 currmovenumber 36",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b6 currmovenumber 37",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove d0e1 currmovenumber 38",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0e2 currmovenumber 39",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove f0e1 currmovenumber 40",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2f2 currmovenumber 41",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a3a4 currmovenumber 42",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0i2 currmovenumber 43",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2i2 currmovenumber 44",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 33 seldepth 47 multipv 1 score cp 26 nodes 23987761 nps 938084 hashfull 1000 tbhits 0 time 25571 pv h2e2 h9g7 g3g4 i9h9 h0g2 h7i7 c3c4 c6c5 c4c5 h9h5 c5c6 h5c5 e2f2 c5c6 c0e2 c6c5 g2f4 g6g5 g4g5 c5g5 b0c2 b9c7 i0h0 c9e7 a0c0 a6a5 h0h4 d9e8 f2g2 c7d5 f4d5 g5d5 c2d4 d5g5",
+      "depth": 33,
+      "seldepth": 47,
+      "nodes": 23987761,
+      "nps": 938084,
+      "time_ms": 25571,
+      "score_type": "cp",
+      "score": 26,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "g3g4",
+        "i9h9",
+        "h0g2",
+        "h7i7",
+        "c3c4",
+        "c6c5",
+        "c4c5",
+        "h9h5",
+        "c5c6",
+        "h5c5",
+        "e2f2",
+        "c5c6",
+        "c0e2",
+        "c6c5",
+        "g2f4",
+        "g6g5",
+        "g4g5",
+        "c5g5",
+        "b0c2",
+        "b9c7",
+        "i0h0",
+        "c9e7",
+        "a0c0",
+        "a6a5",
+        "h0h4",
+        "d9e8",
+        "f2g2",
+        "c7d5",
+        "f4d5",
+        "g5d5",
+        "c2d4",
+        "d5g5"
+      ]
+    },
+    {
+      "raw": "info depth 34 currmove h2e2 currmovenumber 1",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b9 currmovenumber 2",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h9 currmovenumber 3",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove g3g4 currmovenumber 4",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h0g2 currmovenumber 5",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove c3c4 currmovenumber 6",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h4 currmovenumber 7",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h0i2 currmovenumber 8",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove c0e2 currmovenumber 9",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove e3e4 currmovenumber 10",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove i3i4 currmovenumber 11",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b0c2 currmovenumber 12",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h6 currmovenumber 13",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b3 currmovenumber 14",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2g2 currmovenumber 15",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2d2 currmovenumber 16",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove a0a2 currmovenumber 17",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove e0e1 currmovenumber 18",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2e2 currmovenumber 19",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove i0i2 currmovenumber 20",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove c0a2 currmovenumber 21",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2a2 currmovenumber 22",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b1 currmovenumber 23",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b5 currmovenumber 24",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h5 currmovenumber 25",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove g0i2 currmovenumber 26",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h3 currmovenumber 27",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2f2 currmovenumber 28",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h1 currmovenumber 29",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2d2 currmovenumber 30",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove i0i1 currmovenumber 31",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2g2 currmovenumber 32",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove d0e1 currmovenumber 33",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove g0e2 currmovenumber 34",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2c2 currmovenumber 35",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove f0e1 currmovenumber 36",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b4 currmovenumber 37",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove a0a1 currmovenumber 38",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b6 currmovenumber 39",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2f2 currmovenumber 40",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2i2 currmovenumber 41",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b0a2 currmovenumber 42",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2c2 currmovenumber 43",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove a3a4 currmovenumber 44",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 seldepth 43 multipv 1 score cp 21 upperbound nodes 24508814 nps 937885 hashfull 1000 tbhits 0 time 26132 pv h2e2 h9g7",
+      "depth": 34,
+      "seldepth": 43,
+      "nodes": 24508814,
+      "nps": 937885,
+      "time_ms": 26132,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 34 currmove h2e2 currmovenumber 1",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 seldepth 43 multipv 1 score cp 21 lowerbound nodes 24756609 nps 937466 hashfull 1000 tbhits 0 time 26408 pv h2e2",
+      "depth": 34,
+      "seldepth": 43,
+      "nodes": 24756609,
+      "nps": 937466,
+      "time_ms": 26408,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 33 currmove h2e2 currmovenumber 1",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 34 seldepth 43 multipv 1 score cp 24 lowerbound nodes 25123374 nps 937124 hashfull 1000 tbhits 0 time 26809 pv h2e2",
+      "depth": 34,
+      "seldepth": 43,
+      "nodes": 25123374,
+      "nps": 937124,
+      "time_ms": 26809,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 32 currmove h2e2 currmovenumber 1",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b9 currmovenumber 2",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h9 currmovenumber 3",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c3c4 currmovenumber 4",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g3g4 currmovenumber 5",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2c2 currmovenumber 6",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h4 currmovenumber 7",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i1 currmovenumber 8",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e3e4 currmovenumber 9",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0a2 currmovenumber 10",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0g2 currmovenumber 11",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2e2 currmovenumber 12",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0c2 currmovenumber 13",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2d2 currmovenumber 14",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a2 currmovenumber 15",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i3i4 currmovenumber 16",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h1 currmovenumber 17",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0i2 currmovenumber 18",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b3 currmovenumber 19",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b1 currmovenumber 20",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e0e1 currmovenumber 21",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i2 currmovenumber 22",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0a2 currmovenumber 23",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b5 currmovenumber 24",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h5 currmovenumber 25",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0i2 currmovenumber 26",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2f2 currmovenumber 27",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h6 currmovenumber 28",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h3 currmovenumber 29",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove d0e1 currmovenumber 30",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2c2 currmovenumber 31",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2f2 currmovenumber 32",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove f0e1 currmovenumber 33",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2g2 currmovenumber 34",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2d2 currmovenumber 35",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2i2 currmovenumber 36",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a1 currmovenumber 37",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b6 currmovenumber 38",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0e2 currmovenumber 39",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2g2 currmovenumber 40",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2a2 currmovenumber 41",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b4 currmovenumber 42",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0e2 currmovenumber 43",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a3a4 currmovenumber 44",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 34 seldepth 52 multipv 1 score cp 20 upperbound nodes 26340451 nps 935651 hashfull 1000 tbhits 0 time 28152 pv h2e2 h9g7",
+      "depth": 34,
+      "seldepth": 52,
+      "nodes": 26340451,
+      "nps": 935651,
+      "time_ms": 28152,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 34 currmove h2e2 currmovenumber 1",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 seldepth 52 multipv 1 score cp 20 lowerbound nodes 26730579 nps 935126 hashfull 1000 tbhits 0 time 28585 pv h2e2",
+      "depth": 34,
+      "seldepth": 52,
+      "nodes": 26730579,
+      "nps": 935126,
+      "time_ms": 28585,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 33 currmove h2e2 currmovenumber 1",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2h9 currmovenumber 2",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b9 currmovenumber 3",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h0g2 currmovenumber 4",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2e2 currmovenumber 5",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove g3g4 currmovenumber 6",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove c3c4 currmovenumber 7",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2h4 currmovenumber 8",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2g2 currmovenumber 9",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2c2 currmovenumber 10",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove e3e4 currmovenumber 11",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove a0a2 currmovenumber 12",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove i3i4 currmovenumber 13",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2h5 currmovenumber 14",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2d2 currmovenumber 15",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove i0i2 currmovenumber 16",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b3 currmovenumber 17",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove e0e1 currmovenumber 18",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2g2 currmovenumber 19",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove c0a2 currmovenumber 20",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b5 currmovenumber 21",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b1 currmovenumber 22",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b0c2 currmovenumber 23",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2h3 currmovenumber 24",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove g0i2 currmovenumber 25",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2c2 currmovenumber 26",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2h1 currmovenumber 27",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2f2 currmovenumber 28",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h0i2 currmovenumber 29",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2d2 currmovenumber 30",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove c0e2 currmovenumber 31",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove i0i1 currmovenumber 32",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2f2 currmovenumber 33",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove d0e1 currmovenumber 34",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2h6 currmovenumber 35",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove f0e1 currmovenumber 36",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b6 currmovenumber 37",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove a0a1 currmovenumber 38",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2a2 currmovenumber 39",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2i2 currmovenumber 40",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove g0e2 currmovenumber 41",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b4 currmovenumber 42",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove a3a4 currmovenumber 43",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b0a2 currmovenumber 44",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 34 seldepth 53 multipv 1 score cp 22 nodes 28402796 nps 933811 hashfull 1000 tbhits 0 time 30416 pv b2e2 b9c7 b0c2 a9b9 a0b0 c6c5 b0b6 h9g7 h0g2 g6g5 i0i1 f9e8 i1f1 g9e7 e3e4 h7h3 e4e5 b7a7 b6b9 c7b9 g3g4 g5g4 g2e3 i9f9 f1f9 e9f9 e3g4 e6e5 h2f2 a7a8 c2e3 f9e9 e2e5 b9c7 g4h6",
+      "depth": 34,
+      "seldepth": 53,
+      "nodes": 28402796,
+      "nps": 933811,
+      "time_ms": 30416,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "b2e2",
+        "b9c7",
+        "b0c2",
+        "a9b9",
+        "a0b0",
+        "c6c5",
+        "b0b6",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0i1",
+        "f9e8",
+        "i1f1",
+        "g9e7",
+        "e3e4",
+        "h7h3",
+        "e4e5",
+        "b7a7",
+        "b6b9",
+        "c7b9",
+        "g3g4",
+        "g5g4",
+        "g2e3",
+        "i9f9",
+        "f1f9",
+        "e9f9",
+        "e3g4",
+        "e6e5",
+        "h2f2",
+        "a7a8",
+        "c2e3",
+        "f9e9",
+        "e2e5",
+        "b9c7",
+        "g4h6"
+      ]
+    },
+    {
+      "raw": "info depth 35 currmove b2e2 currmovenumber 1",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b9 currmovenumber 2",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2e2 currmovenumber 3",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h9 currmovenumber 4",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b0c2 currmovenumber 5",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove g3g4 currmovenumber 6",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove c3c4 currmovenumber 7",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h3 currmovenumber 8",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b1 currmovenumber 9",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove i3i4 currmovenumber 10",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove i0i2 currmovenumber 11",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove a0a1 currmovenumber 12",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2f2 currmovenumber 13",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b5 currmovenumber 14",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b6 currmovenumber 15",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove i0i1 currmovenumber 16",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove g0i2 currmovenumber 17",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove c0a2 currmovenumber 18",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b3 currmovenumber 19",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove e0e1 currmovenumber 20",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove d0e1 currmovenumber 21",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h1 currmovenumber 22",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove f0e1 currmovenumber 23",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h5 currmovenumber 24",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove a0a2 currmovenumber 25",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h6 currmovenumber 26",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2i2 currmovenumber 27",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2c2 currmovenumber 28",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove e3e4 currmovenumber 29",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2d2 currmovenumber 30",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2g2 currmovenumber 31",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2d2 currmovenumber 32",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2f2 currmovenumber 33",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2a2 currmovenumber 34",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h0i2 currmovenumber 35",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b4 currmovenumber 36",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove g0e2 currmovenumber 37",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove c0e2 currmovenumber 38",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2g2 currmovenumber 39",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2c2 currmovenumber 40",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h4 currmovenumber 41",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove a3a4 currmovenumber 42",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h0g2 currmovenumber 43",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b0a2 currmovenumber 44",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 seldepth 49 multipv 1 score cp 18 upperbound nodes 34366133 nps 924541 hashfull 1000 tbhits 0 time 37171 pv b2e2 b9c7",
+      "depth": 35,
+      "seldepth": 49,
+      "nodes": 34366133,
+      "nps": 924541,
+      "time_ms": 37171,
+      "score_type": "cp",
+      "score": 18,
+      "pv": [
+        "b2e2",
+        "b9c7"
+      ]
+    },
+    {
+      "raw": "info depth 35 currmove b2e2 currmovenumber 1",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 seldepth 50 multipv 1 score cp 18 lowerbound nodes 35621359 nps 920995 hashfull 1000 tbhits 0 time 38677 pv b2e2",
+      "depth": 35,
+      "seldepth": 50,
+      "nodes": 35621359,
+      "nps": 920995,
+      "time_ms": 38677,
+      "score_type": "cp",
+      "score": 18,
+      "pv": [
+        "b2e2"
+      ]
+    },
+    {
+      "raw": "info depth 34 currmove b2e2 currmovenumber 1",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 35 seldepth 50 multipv 1 score cp 22 lowerbound nodes 35929029 nps 921304 hashfull 1000 tbhits 0 time 38998 pv b2e2",
+      "depth": 35,
+      "seldepth": 50,
+      "nodes": 35929029,
+      "nps": 921304,
+      "time_ms": 38998,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "b2e2"
+      ]
+    },
+    {
+      "raw": "info depth 33 currmove b2e2 currmovenumber 1",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove b2b9 currmovenumber 2",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 33 currmove h2e2 currmovenumber 3",
+      "depth": 33
+    },
+    {
+      "raw": "info depth 35 seldepth 50 multipv 1 score cp 26 lowerbound nodes 37837795 nps 920470 hashfull 1000 tbhits 0 time 41107 pv h2e2",
+      "depth": 35,
+      "seldepth": 50,
+      "nodes": 37837795,
+      "nps": 920470,
+      "time_ms": 41107,
+      "score_type": "cp",
+      "score": 26,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 32 currmove h2e2 currmovenumber 1",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h9 currmovenumber 2",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b9 currmovenumber 3",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2e2 currmovenumber 4",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0c2 currmovenumber 5",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c3c4 currmovenumber 6",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g3g4 currmovenumber 7",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e3e4 currmovenumber 8",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h6 currmovenumber 9",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i1 currmovenumber 10",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0g2 currmovenumber 11",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h3 currmovenumber 12",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2g2 currmovenumber 13",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2f2 currmovenumber 14",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2i2 currmovenumber 15",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0a2 currmovenumber 16",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b4 currmovenumber 17",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0i2 currmovenumber 18",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i0i2 currmovenumber 19",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove f0e1 currmovenumber 20",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b1 currmovenumber 21",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b5 currmovenumber 22",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h5 currmovenumber 23",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h1 currmovenumber 24",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b3 currmovenumber 25",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove e0e1 currmovenumber 26",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2f2 currmovenumber 27",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove i3i4 currmovenumber 28",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove d0e1 currmovenumber 29",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2b6 currmovenumber 30",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2d2 currmovenumber 31",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2d2 currmovenumber 32",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a2 currmovenumber 33",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2a2 currmovenumber 34",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b0a2 currmovenumber 35",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2c2 currmovenumber 36",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a0a1 currmovenumber 37",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h0i2 currmovenumber 38",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove b2c2 currmovenumber 39",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove c0e2 currmovenumber 40",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2h4 currmovenumber 41",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove g0e2 currmovenumber 42",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove a3a4 currmovenumber 43",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 32 currmove h2g2 currmovenumber 44",
+      "depth": 32
+    },
+    {
+      "raw": "info depth 35 seldepth 50 multipv 1 score cp 20 upperbound nodes 38125339 nps 920501 hashfull 1000 tbhits 0 time 41418 pv h2e2 h9g7",
+      "depth": 35,
+      "seldepth": 50,
+      "nodes": 38125339,
+      "nps": 920501,
+      "time_ms": 41418,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 35 currmove h2e2 currmovenumber 1",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 seldepth 52 multipv 1 score cp 20 lowerbound nodes 39451420 nps 920342 hashfull 1000 tbhits 0 time 42866 pv h2e2",
+      "depth": 35,
+      "seldepth": 52,
+      "nodes": 39451420,
+      "nps": 920342,
+      "time_ms": 42866,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 34 currmove h2e2 currmovenumber 1",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h9 currmovenumber 2",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b9 currmovenumber 3",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove i0i1 currmovenumber 4",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2e2 currmovenumber 5",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h0g2 currmovenumber 6",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b0c2 currmovenumber 7",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove g3g4 currmovenumber 8",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove c3c4 currmovenumber 9",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h5 currmovenumber 10",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h6 currmovenumber 11",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2a2 currmovenumber 12",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h3 currmovenumber 13",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove e3e4 currmovenumber 14",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b0a2 currmovenumber 15",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h4 currmovenumber 16",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove i0i2 currmovenumber 17",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2d2 currmovenumber 18",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2h1 currmovenumber 19",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2c2 currmovenumber 20",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b3 currmovenumber 21",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove g0i2 currmovenumber 22",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove d0e1 currmovenumber 23",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove c0a2 currmovenumber 24",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b1 currmovenumber 25",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b5 currmovenumber 26",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove e0e1 currmovenumber 27",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2f2 currmovenumber 28",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b4 currmovenumber 29",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove i3i4 currmovenumber 30",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2c2 currmovenumber 31",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove f0e1 currmovenumber 32",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove a0a2 currmovenumber 33",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2f2 currmovenumber 34",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2g2 currmovenumber 35",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove a0a1 currmovenumber 36",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2d2 currmovenumber 37",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2g2 currmovenumber 38",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove b2b6 currmovenumber 39",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h2i2 currmovenumber 40",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove c0e2 currmovenumber 41",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove h0i2 currmovenumber 42",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove g0e2 currmovenumber 43",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 34 currmove a3a4 currmovenumber 44",
+      "depth": 34
+    },
+    {
+      "raw": "info depth 35 seldepth 52 multipv 1 score cp 19 nodes 40269920 nps 920118 hashfull 1000 tbhits 0 time 43766 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 c6c5 b2c2 b9c7 b0a2 c7b5 a0a1 c9e7 e3e4 d9e8 a1d1 h7i7 h6h9 g7h9 e2e6 a6a5 g2e3 b5a3 c2e2 h9g7 e4e5 b7b5 d1d6 a9d9 d6d9 e9d9 e6g6 a5a4",
+      "depth": 35,
+      "seldepth": 52,
+      "nodes": 40269920,
+      "nps": 920118,
+      "time_ms": 43766,
+      "score_type": "cp",
+      "score": 19,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "c6c5",
+        "b2c2",
+        "b9c7",
+        "b0a2",
+        "c7b5",
+        "a0a1",
+        "c9e7",
+        "e3e4",
+        "d9e8",
+        "a1d1",
+        "h7i7",
+        "h6h9",
+        "g7h9",
+        "e2e6",
+        "a6a5",
+        "g2e3",
+        "b5a3",
+        "c2e2",
+        "h9g7",
+        "e4e5",
+        "b7b5",
+        "d1d6",
+        "a9d9",
+        "d6d9",
+        "e9d9",
+        "e6g6",
+        "a5a4"
+      ]
+    },
+    {
+      "raw": "info depth 36 currmove h2e2 currmovenumber 1",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b9 currmovenumber 2",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h9 currmovenumber 3",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2e2 currmovenumber 4",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h0g2 currmovenumber 5",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g3g4 currmovenumber 6",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c3c4 currmovenumber 7",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b0c2 currmovenumber 8",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove e3e4 currmovenumber 9",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h5 currmovenumber 10",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h6 currmovenumber 11",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a0a2 currmovenumber 12",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2i2 currmovenumber 13",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c0e2 currmovenumber 14",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b4 currmovenumber 15",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c0a2 currmovenumber 16",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b5 currmovenumber 17",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b1 currmovenumber 18",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i0i1 currmovenumber 19",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove e0e1 currmovenumber 20",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g0i2 currmovenumber 21",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i3i4 currmovenumber 22",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2f2 currmovenumber 23",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b3 currmovenumber 24",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove d0e1 currmovenumber 25",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h0i2 currmovenumber 26",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h1 currmovenumber 27",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove f0e1 currmovenumber 28",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2d2 currmovenumber 29",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i0i2 currmovenumber 30",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a0a1 currmovenumber 31",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h3 currmovenumber 32",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2g2 currmovenumber 33",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2a2 currmovenumber 34",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2c2 currmovenumber 35",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2f2 currmovenumber 36",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2d2 currmovenumber 37",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g0e2 currmovenumber 38",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b6 currmovenumber 39",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b0a2 currmovenumber 40",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2c2 currmovenumber 41",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2g2 currmovenumber 42",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a3a4 currmovenumber 43",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h4 currmovenumber 44",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 seldepth 45 multipv 1 score cp 20 nodes 41601655 nps 920207 hashfull 1000 tbhits 0 time 45209 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 c6c5 b0a2 b9c7 b2c2 c7b5 a0a1 c9e7 e3e4 d9e8 a1d1 h7i7 h6h9 g7h9 e2e6 a6a5 e6e5 b5a3 c2c5 a9d9 d1d9 e9d9 c5d5 a5a4 g2e3 i7i3 g3g4 g5g4 e3g4 i3i5 g4f6 i5d5 f6d5 h9i7",
+      "depth": 36,
+      "seldepth": 45,
+      "nodes": 41601655,
+      "nps": 920207,
+      "time_ms": 45209,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "c6c5",
+        "b0a2",
+        "b9c7",
+        "b2c2",
+        "c7b5",
+        "a0a1",
+        "c9e7",
+        "e3e4",
+        "d9e8",
+        "a1d1",
+        "h7i7",
+        "h6h9",
+        "g7h9",
+        "e2e6",
+        "a6a5",
+        "e6e5",
+        "b5a3",
+        "c2c5",
+        "a9d9",
+        "d1d9",
+        "e9d9",
+        "c5d5",
+        "a5a4",
+        "g2e3",
+        "i7i3",
+        "g3g4",
+        "g5g4",
+        "e3g4",
+        "i3i5",
+        "g4f6",
+        "i5d5",
+        "f6d5",
+        "h9i7"
+      ]
+    },
+    {
+      "raw": "info depth 37 currmove h2e2 currmovenumber 1",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 seldepth 52 multipv 1 score cp 22 lowerbound nodes 47857672 nps 917288 hashfull 1000 tbhits 0 time 52173 pv h2e2",
+      "depth": 37,
+      "seldepth": 52,
+      "nodes": 47857672,
+      "nps": 917288,
+      "time_ms": 52173,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 36 currmove h2e2 currmovenumber 1",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h9 currmovenumber 2",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b9 currmovenumber 3",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h0g2 currmovenumber 4",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2e2 currmovenumber 5",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h3 currmovenumber 6",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c3c4 currmovenumber 7",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g3g4 currmovenumber 8",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h4 currmovenumber 9",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h0i2 currmovenumber 10",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i0i2 currmovenumber 11",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove e3e4 currmovenumber 12",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a0a2 currmovenumber 13",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g0e2 currmovenumber 14",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h6 currmovenumber 15",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2f2 currmovenumber 16",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2f2 currmovenumber 17",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i3i4 currmovenumber 18",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g0i2 currmovenumber 19",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove e0e1 currmovenumber 20",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b3 currmovenumber 21",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove d0e1 currmovenumber 22",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b1 currmovenumber 23",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a0a1 currmovenumber 24",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h1 currmovenumber 25",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b5 currmovenumber 26",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove f0e1 currmovenumber 27",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c0a2 currmovenumber 28",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b6 currmovenumber 29",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2c2 currmovenumber 30",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2d2 currmovenumber 31",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2g2 currmovenumber 32",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2d2 currmovenumber 33",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2g2 currmovenumber 34",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2a2 currmovenumber 35",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b0a2 currmovenumber 36",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b4 currmovenumber 37",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i0i1 currmovenumber 38",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2c2 currmovenumber 39",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2i2 currmovenumber 40",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h5 currmovenumber 41",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c0e2 currmovenumber 42",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b0c2 currmovenumber 43",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a3a4 currmovenumber 44",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 37 seldepth 52 multipv 1 score cp 20 upperbound nodes 50310023 nps 916560 hashfull 1000 tbhits 0 time 54890 pv h2e2 h9g7",
+      "depth": 37,
+      "seldepth": 52,
+      "nodes": 50310023,
+      "nps": 916560,
+      "time_ms": 54890,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 37 currmove h2e2 currmovenumber 1",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 seldepth 52 multipv 1 score cp 20 lowerbound nodes 50698154 nps 916220 hashfull 1000 tbhits 0 time 55334 pv h2e2",
+      "depth": 37,
+      "seldepth": 52,
+      "nodes": 50698154,
+      "nps": 916220,
+      "time_ms": 55334,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 36 currmove h2e2 currmovenumber 1",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 37 seldepth 52 multipv 1 score cp 24 lowerbound nodes 53484269 nps 914808 hashfull 1000 tbhits 0 time 58465 pv h2e2",
+      "depth": 37,
+      "seldepth": 52,
+      "nodes": 53484269,
+      "nps": 914808,
+      "time_ms": 58465,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 35 currmove h2e2 currmovenumber 1",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h9 currmovenumber 2",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b9 currmovenumber 3",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h0g2 currmovenumber 4",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2e2 currmovenumber 5",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove g3g4 currmovenumber 6",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove c3c4 currmovenumber 7",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b0c2 currmovenumber 8",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h4 currmovenumber 9",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2a2 currmovenumber 10",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b5 currmovenumber 11",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h3 currmovenumber 12",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove d0e1 currmovenumber 13",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove a0a2 currmovenumber 14",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b3 currmovenumber 15",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove f0e1 currmovenumber 16",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove i0i1 currmovenumber 17",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h6 currmovenumber 18",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove g0i2 currmovenumber 19",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove e0e1 currmovenumber 20",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2f2 currmovenumber 21",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b1 currmovenumber 22",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove a0a1 currmovenumber 23",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h1 currmovenumber 24",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove c0a2 currmovenumber 25",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2d2 currmovenumber 26",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove i0i2 currmovenumber 27",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2c2 currmovenumber 28",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2g2 currmovenumber 29",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2f2 currmovenumber 30",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2d2 currmovenumber 31",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b6 currmovenumber 32",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove e3e4 currmovenumber 33",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove i3i4 currmovenumber 34",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2c2 currmovenumber 35",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h0i2 currmovenumber 36",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2i2 currmovenumber 37",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove c0e2 currmovenumber 38",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b2b4 currmovenumber 39",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2h5 currmovenumber 40",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove g0e2 currmovenumber 41",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove h2g2 currmovenumber 42",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove a3a4 currmovenumber 43",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 35 currmove b0a2 currmovenumber 44",
+      "depth": 35
+    },
+    {
+      "raw": "info depth 37 seldepth 55 multipv 1 score cp 19 upperbound nodes 54520662 nps 914822 hashfull 1000 tbhits 0 time 59597 pv h2e2 h9g7",
+      "depth": 37,
+      "seldepth": 55,
+      "nodes": 54520662,
+      "nps": 914822,
+      "time_ms": 59597,
+      "score_type": "cp",
+      "score": 19,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 37 currmove h2e2 currmovenumber 1",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 seldepth 56 multipv 1 score cp 19 lowerbound nodes 55082304 nps 914502 hashfull 1000 tbhits 0 time 60232 pv h2e2",
+      "depth": 37,
+      "seldepth": 56,
+      "nodes": 55082304,
+      "nps": 914502,
+      "time_ms": 60232,
+      "score_type": "cp",
+      "score": 19,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 36 currmove h2e2 currmovenumber 1",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b9 currmovenumber 2",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h9 currmovenumber 3",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2e2 currmovenumber 4",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h0g2 currmovenumber 5",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c3c4 currmovenumber 6",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b4 currmovenumber 7",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g3g4 currmovenumber 8",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h1 currmovenumber 9",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2c2 currmovenumber 10",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b0c2 currmovenumber 11",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c0e2 currmovenumber 12",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a0a1 currmovenumber 13",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2g2 currmovenumber 14",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2d2 currmovenumber 15",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2f2 currmovenumber 16",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b6 currmovenumber 17",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2i2 currmovenumber 18",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g0i2 currmovenumber 19",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i0i1 currmovenumber 20",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b1 currmovenumber 21",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove d0e1 currmovenumber 22",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove e0e1 currmovenumber 23",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b3 currmovenumber 24",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2b5 currmovenumber 25",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2d2 currmovenumber 26",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove f0e1 currmovenumber 27",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove c0a2 currmovenumber 28",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i0i2 currmovenumber 29",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2a2 currmovenumber 30",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2f2 currmovenumber 31",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a0a2 currmovenumber 32",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b2c2 currmovenumber 33",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h3 currmovenumber 34",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h6 currmovenumber 35",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove i3i4 currmovenumber 36",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove e3e4 currmovenumber 37",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove g0e2 currmovenumber 38",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h4 currmovenumber 39",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h0i2 currmovenumber 40",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2h5 currmovenumber 41",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove b0a2 currmovenumber 42",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove h2g2 currmovenumber 43",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 36 currmove a3a4 currmovenumber 44",
+      "depth": 36
+    },
+    {
+      "raw": "info depth 37 seldepth 56 multipv 1 score cp 20 nodes 55301697 nps 914606 hashfull 1000 tbhits 0 time 60465 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 c3c4 h7i7 h6g6 i7i8 b0c2 i8g8 g6f6 d9e8 c2d4 h9h4 b2b4 c9e7 e2d2 c6c5 g3g4 h4h5 c4c5 e7c5 c0e2 g5g4 b4g4 g8g4 a0b0 a9b9 e2g4 b7b6 f6f4 h5g5 g4e2 c5e7 d4c6",
+      "depth": 37,
+      "seldepth": 56,
+      "nodes": 55301697,
+      "nps": 914606,
+      "time_ms": 60465,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "c3c4",
+        "h7i7",
+        "h6g6",
+        "i7i8",
+        "b0c2",
+        "i8g8",
+        "g6f6",
+        "d9e8",
+        "c2d4",
+        "h9h4",
+        "b2b4",
+        "c9e7",
+        "e2d2",
+        "c6c5",
+        "g3g4",
+        "h4h5",
+        "c4c5",
+        "e7c5",
+        "c0e2",
+        "g5g4",
+        "b4g4",
+        "g8g4",
+        "a0b0",
+        "a9b9",
+        "e2g4",
+        "b7b6",
+        "f6f4",
+        "h5g5",
+        "g4e2",
+        "c5e7",
+        "d4c6"
+      ]
+    },
+    {
+      "raw": "info depth 38 currmove h2e2 currmovenumber 1",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 seldepth 45 multipv 1 score cp 22 lowerbound nodes 56375993 nps 914333 hashfull 1000 tbhits 0 time 61658 pv h2e2",
+      "depth": 38,
+      "seldepth": 45,
+      "nodes": 56375993,
+      "nps": 914333,
+      "time_ms": 61658,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 37 currmove h2e2 currmovenumber 1",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b9 currmovenumber 2",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h9 currmovenumber 3",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h0g2 currmovenumber 4",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove g3g4 currmovenumber 5",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove c3c4 currmovenumber 6",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2e2 currmovenumber 7",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b0a2 currmovenumber 8",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2c2 currmovenumber 9",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b6 currmovenumber 10",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b0c2 currmovenumber 11",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2a2 currmovenumber 12",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove i3i4 currmovenumber 13",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h0i2 currmovenumber 14",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h3 currmovenumber 15",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h1 currmovenumber 16",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2d2 currmovenumber 17",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b3 currmovenumber 18",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove e0e1 currmovenumber 19",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove d0e1 currmovenumber 20",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b5 currmovenumber 21",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove c0a2 currmovenumber 22",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove g0i2 currmovenumber 23",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove f0e1 currmovenumber 24",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove i0i2 currmovenumber 25",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b1 currmovenumber 26",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2f2 currmovenumber 27",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2f2 currmovenumber 28",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2d2 currmovenumber 29",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove a0a2 currmovenumber 30",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove a0a1 currmovenumber 31",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2g2 currmovenumber 32",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2c2 currmovenumber 33",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove g0e2 currmovenumber 34",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h5 currmovenumber 35",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove e3e4 currmovenumber 36",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2i2 currmovenumber 37",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h6 currmovenumber 38",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove i0i1 currmovenumber 39",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b4 currmovenumber 40",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h4 currmovenumber 41",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2g2 currmovenumber 42",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove c0e2 currmovenumber 43",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove a3a4 currmovenumber 44",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 38 seldepth 45 multipv 1 score cp 20 upperbound nodes 57033708 nps 914324 hashfull 1000 tbhits 0 time 62378 pv h2e2 h9g7",
+      "depth": 38,
+      "seldepth": 45,
+      "nodes": 57033708,
+      "nps": 914324,
+      "time_ms": 62378,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 38 currmove h2e2 currmovenumber 1",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 seldepth 49 multipv 1 score cp 20 lowerbound nodes 58092914 nps 914489 hashfull 1000 tbhits 0 time 63525 pv h2e2",
+      "depth": 38,
+      "seldepth": 49,
+      "nodes": 58092914,
+      "nps": 914489,
+      "time_ms": 63525,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 37 currmove h2e2 currmovenumber 1",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h9 currmovenumber 2",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b9 currmovenumber 3",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h0g2 currmovenumber 4",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b0c2 currmovenumber 5",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2e2 currmovenumber 6",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove c3c4 currmovenumber 7",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove d0e1 currmovenumber 8",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2f2 currmovenumber 9",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove g3g4 currmovenumber 10",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove f0e1 currmovenumber 11",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove a0a1 currmovenumber 12",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove i0i1 currmovenumber 13",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove i3i4 currmovenumber 14",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2d2 currmovenumber 15",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2d2 currmovenumber 16",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2c2 currmovenumber 17",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h3 currmovenumber 18",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove i0i2 currmovenumber 19",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove c0a2 currmovenumber 20",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove g0e2 currmovenumber 21",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b1 currmovenumber 22",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h5 currmovenumber 23",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b3 currmovenumber 24",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove e0e1 currmovenumber 25",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove a0a2 currmovenumber 26",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove g0i2 currmovenumber 27",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b5 currmovenumber 28",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h0i2 currmovenumber 29",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove c0e2 currmovenumber 30",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h6 currmovenumber 31",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2a2 currmovenumber 32",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2f2 currmovenumber 33",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2c2 currmovenumber 34",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2g2 currmovenumber 35",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove e3e4 currmovenumber 36",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b6 currmovenumber 37",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h1 currmovenumber 38",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2i2 currmovenumber 39",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b2b4 currmovenumber 40",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2g2 currmovenumber 41",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove h2h4 currmovenumber 42",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove a3a4 currmovenumber 43",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 37 currmove b0a2 currmovenumber 44",
+      "depth": 37
+    },
+    {
+      "raw": "info depth 38 seldepth 49 multipv 1 score cp 23 nodes 58946210 nps 914603 hashfull 1000 tbhits 0 time 64450 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 b0c2 c6c5 e3e4 d9e8 g2e3 h7i7 h6h9 g7h9 g3g4 c9e7 g4g5 e7g5 b2a2 c7d5 a0b0 b7e7 e4e5 e7e5 e2e5 d5e3 c2e3 e6e5 e3f5 g9e7 b0b6 i7i3 b6e6 h9f8 e6f6 f8h7 f6i6",
+      "depth": 38,
+      "seldepth": 49,
+      "nodes": 58946210,
+      "nps": 914603,
+      "time_ms": 64450,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "b0c2",
+        "c6c5",
+        "e3e4",
+        "d9e8",
+        "g2e3",
+        "h7i7",
+        "h6h9",
+        "g7h9",
+        "g3g4",
+        "c9e7",
+        "g4g5",
+        "e7g5",
+        "b2a2",
+        "c7d5",
+        "a0b0",
+        "b7e7",
+        "e4e5",
+        "e7e5",
+        "e2e5",
+        "d5e3",
+        "c2e3",
+        "e6e5",
+        "e3f5",
+        "g9e7",
+        "b0b6",
+        "i7i3",
+        "b6e6",
+        "h9f8",
+        "e6f6",
+        "f8h7",
+        "f6i6"
+      ]
+    },
+    {
+      "raw": "info depth 39 currmove h2e2 currmovenumber 1",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h9 currmovenumber 2",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b9 currmovenumber 3",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g3g4 currmovenumber 4",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c3c4 currmovenumber 5",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0g2 currmovenumber 6",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b3 currmovenumber 7",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h6 currmovenumber 8",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0a2 currmovenumber 9",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2e2 currmovenumber 10",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2c2 currmovenumber 11",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0c2 currmovenumber 12",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h4 currmovenumber 13",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e3e4 currmovenumber 14",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b5 currmovenumber 15",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2d2 currmovenumber 16",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b6 currmovenumber 17",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i3i4 currmovenumber 18",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2a2 currmovenumber 19",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2d2 currmovenumber 20",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2g2 currmovenumber 21",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i2 currmovenumber 22",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2f2 currmovenumber 23",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2f2 currmovenumber 24",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e0e1 currmovenumber 25",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0i2 currmovenumber 26",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2g2 currmovenumber 27",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b1 currmovenumber 28",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0a2 currmovenumber 29",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a2 currmovenumber 30",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove f0e1 currmovenumber 31",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h3 currmovenumber 32",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0i2 currmovenumber 33",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h1 currmovenumber 34",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove d0e1 currmovenumber 35",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a1 currmovenumber 36",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2i2 currmovenumber 37",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2c2 currmovenumber 38",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h5 currmovenumber 39",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0e2 currmovenumber 40",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0e2 currmovenumber 41",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a3a4 currmovenumber 42",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i1 currmovenumber 43",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b4 currmovenumber 44",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 seldepth 47 multipv 1 score cp 19 upperbound nodes 61174014 nps 914970 hashfull 1000 tbhits 0 time 66859 pv h2e2 h9g7",
+      "depth": 39,
+      "seldepth": 47,
+      "nodes": 61174014,
+      "nps": 914970,
+      "time_ms": 66859,
+      "score_type": "cp",
+      "score": 19,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 39 currmove h2e2 currmovenumber 1",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 seldepth 47 multipv 1 score cp 19 lowerbound nodes 66118323 nps 913476 hashfull 1000 tbhits 0 time 72381 pv h2e2",
+      "depth": 39,
+      "seldepth": 47,
+      "nodes": 66118323,
+      "nps": 913476,
+      "time_ms": 72381,
+      "score_type": "cp",
+      "score": 19,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 38 currmove h2e2 currmovenumber 1",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2e2 currmovenumber 2",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b9 currmovenumber 3",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h9 currmovenumber 4",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h0g2 currmovenumber 5",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove c3c4 currmovenumber 6",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b0c2 currmovenumber 7",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove g3g4 currmovenumber 8",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h5 currmovenumber 9",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove a0a2 currmovenumber 10",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove e3e4 currmovenumber 11",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2a2 currmovenumber 12",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b0a2 currmovenumber 13",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2g2 currmovenumber 14",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h6 currmovenumber 15",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h0i2 currmovenumber 16",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove i0i1 currmovenumber 17",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2f2 currmovenumber 18",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b4 currmovenumber 19",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h4 currmovenumber 20",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h3 currmovenumber 21",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b6 currmovenumber 22",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2g2 currmovenumber 23",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b3 currmovenumber 24",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b5 currmovenumber 25",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b1 currmovenumber 26",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove e0e1 currmovenumber 27",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove g0i2 currmovenumber 28",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2f2 currmovenumber 29",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove c0a2 currmovenumber 30",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove i0i2 currmovenumber 31",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove f0e1 currmovenumber 32",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove a0a1 currmovenumber 33",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h1 currmovenumber 34",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2d2 currmovenumber 35",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove c0e2 currmovenumber 36",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove i3i4 currmovenumber 37",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove d0e1 currmovenumber 38",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2i2 currmovenumber 39",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2c2 currmovenumber 40",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2d2 currmovenumber 41",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2c2 currmovenumber 42",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove g0e2 currmovenumber 43",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove a3a4 currmovenumber 44",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 39 seldepth 49 multipv 1 score cp 20 nodes 67011213 nps 912859 hashfull 1000 tbhits 0 time 73408 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 c3c4 h7i7 h6g6 i7i8 b0c2 i8g8 g6f6 d9e8 c2d4 h9h4 b2b4 c9e7 e2d2 c6c5 g3g4 h4h5 c4c5 e7c5 c0e2 g5g4 b4g4 g8g4 a0b0 a9b9 e2g4 b7b6 f6f4 c5e7 g4e2 h5c5 f4g4 g7h5 b0b1 h5f6 g4g6 c5c3 g6g7 f6h5",
+      "depth": 39,
+      "seldepth": 49,
+      "nodes": 67011213,
+      "nps": 912859,
+      "time_ms": 73408,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "c3c4",
+        "h7i7",
+        "h6g6",
+        "i7i8",
+        "b0c2",
+        "i8g8",
+        "g6f6",
+        "d9e8",
+        "c2d4",
+        "h9h4",
+        "b2b4",
+        "c9e7",
+        "e2d2",
+        "c6c5",
+        "g3g4",
+        "h4h5",
+        "c4c5",
+        "e7c5",
+        "c0e2",
+        "g5g4",
+        "b4g4",
+        "g8g4",
+        "a0b0",
+        "a9b9",
+        "e2g4",
+        "b7b6",
+        "f6f4",
+        "c5e7",
+        "g4e2",
+        "h5c5",
+        "f4g4",
+        "g7h5",
+        "b0b1",
+        "h5f6",
+        "g4g6",
+        "c5c3",
+        "g6g7",
+        "f6h5"
+      ]
+    },
+    {
+      "raw": "info depth 40 currmove h2e2 currmovenumber 1",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 seldepth 57 multipv 1 score cp 22 lowerbound nodes 69086565 nps 912190 hashfull 1000 tbhits 0 time 75737 pv h2e2",
+      "depth": 40,
+      "seldepth": 57,
+      "nodes": 69086565,
+      "nps": 912190,
+      "time_ms": 75737,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 39 currmove h2e2 currmovenumber 1",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h9 currmovenumber 2",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b9 currmovenumber 3",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g3g4 currmovenumber 4",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0g2 currmovenumber 5",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c3c4 currmovenumber 6",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2e2 currmovenumber 7",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0c2 currmovenumber 8",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0e2 currmovenumber 9",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2d2 currmovenumber 10",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2a2 currmovenumber 11",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0a2 currmovenumber 12",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2d2 currmovenumber 13",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b1 currmovenumber 14",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2f2 currmovenumber 15",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e0e1 currmovenumber 16",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b5 currmovenumber 17",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0i2 currmovenumber 18",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b3 currmovenumber 19",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h1 currmovenumber 20",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0a2 currmovenumber 21",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2g2 currmovenumber 22",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i2 currmovenumber 23",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2c2 currmovenumber 24",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0e2 currmovenumber 25",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e3e4 currmovenumber 26",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h3 currmovenumber 27",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i3i4 currmovenumber 28",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove f0e1 currmovenumber 29",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b6 currmovenumber 30",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h6 currmovenumber 31",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2i2 currmovenumber 32",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a1 currmovenumber 33",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove d0e1 currmovenumber 34",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a2 currmovenumber 35",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2f2 currmovenumber 36",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h5 currmovenumber 37",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2c2 currmovenumber 38",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0i2 currmovenumber 39",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h4 currmovenumber 40",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i1 currmovenumber 41",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a3a4 currmovenumber 42",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2g2 currmovenumber 43",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b4 currmovenumber 44",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 40 seldepth 60 multipv 1 score cp 20 upperbound nodes 72298271 nps 911269 hashfull 1000 tbhits 0 time 79338 pv h2e2 h9g7",
+      "depth": 40,
+      "seldepth": 60,
+      "nodes": 72298271,
+      "nps": 911269,
+      "time_ms": 79338,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 40 currmove h2e2 currmovenumber 1",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 seldepth 60 multipv 1 score cp 20 lowerbound nodes 73188915 nps 911125 hashfull 1000 tbhits 0 time 80328 pv h2e2",
+      "depth": 40,
+      "seldepth": 60,
+      "nodes": 73188915,
+      "nps": 911125,
+      "time_ms": 80328,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 39 currmove h2e2 currmovenumber 1",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 40 seldepth 60 multipv 1 score cp 24 lowerbound nodes 74274660 nps 911066 hashfull 1000 tbhits 0 time 81525 pv h2e2",
+      "depth": 40,
+      "seldepth": 60,
+      "nodes": 74274660,
+      "nps": 911066,
+      "time_ms": 81525,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 38 currmove h2e2 currmovenumber 1",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b9 currmovenumber 2",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h9 currmovenumber 3",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b0c2 currmovenumber 4",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove g3g4 currmovenumber 5",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h0g2 currmovenumber 6",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h6 currmovenumber 7",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove c3c4 currmovenumber 8",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2g2 currmovenumber 9",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b0a2 currmovenumber 10",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b4 currmovenumber 11",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove e3e4 currmovenumber 12",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2g2 currmovenumber 13",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2e2 currmovenumber 14",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove c0e2 currmovenumber 15",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h4 currmovenumber 16",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove g0e2 currmovenumber 17",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b5 currmovenumber 18",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove e0e1 currmovenumber 19",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove g0i2 currmovenumber 20",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b3 currmovenumber 21",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2f2 currmovenumber 22",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove c0a2 currmovenumber 23",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b1 currmovenumber 24",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h1 currmovenumber 25",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove i0i2 currmovenumber 26",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove a0a1 currmovenumber 27",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h5 currmovenumber 28",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2d2 currmovenumber 29",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2b6 currmovenumber 30",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2h3 currmovenumber 31",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove f0e1 currmovenumber 32",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2i2 currmovenumber 33",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2c2 currmovenumber 34",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove d0e1 currmovenumber 35",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2d2 currmovenumber 36",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h2f2 currmovenumber 37",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove h0i2 currmovenumber 38",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove i3i4 currmovenumber 39",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove a0a2 currmovenumber 40",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove i0i1 currmovenumber 41",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2c2 currmovenumber 42",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove b2a2 currmovenumber 43",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 38 currmove a3a4 currmovenumber 44",
+      "depth": 38
+    },
+    {
+      "raw": "info depth 40 seldepth 60 multipv 1 score cp 18 upperbound nodes 76648837 nps 911249 hashfull 1000 tbhits 0 time 84114 pv h2e2 h9g7",
+      "depth": 40,
+      "seldepth": 60,
+      "nodes": 76648837,
+      "nps": 911249,
+      "time_ms": 84114,
+      "score_type": "cp",
+      "score": 18,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 40 currmove h2e2 currmovenumber 1",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 seldepth 60 multipv 1 score cp 18 lowerbound nodes 77816557 nps 910923 hashfull 1000 tbhits 0 time 85426 pv h2e2",
+      "depth": 40,
+      "seldepth": 60,
+      "nodes": 77816557,
+      "nps": 910923,
+      "time_ms": 85426,
+      "score_type": "cp",
+      "score": 18,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 39 currmove h2e2 currmovenumber 1",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h9 currmovenumber 2",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b9 currmovenumber 3",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0g2 currmovenumber 4",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c3c4 currmovenumber 5",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g3g4 currmovenumber 6",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0c2 currmovenumber 7",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2g2 currmovenumber 8",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h6 currmovenumber 9",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i1 currmovenumber 10",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0e2 currmovenumber 11",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b3 currmovenumber 12",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h4 currmovenumber 13",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2a2 currmovenumber 14",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0e2 currmovenumber 15",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2e2 currmovenumber 16",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a1 currmovenumber 17",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2g2 currmovenumber 18",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b6 currmovenumber 19",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove f0e1 currmovenumber 20",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e0e1 currmovenumber 21",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2f2 currmovenumber 22",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b5 currmovenumber 23",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0i2 currmovenumber 24",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i2 currmovenumber 25",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0a2 currmovenumber 26",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b1 currmovenumber 27",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h1 currmovenumber 28",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2d2 currmovenumber 29",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove d0e1 currmovenumber 30",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h3 currmovenumber 31",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2i2 currmovenumber 32",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2c2 currmovenumber 33",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2d2 currmovenumber 34",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a2 currmovenumber 35",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2f2 currmovenumber 36",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0i2 currmovenumber 37",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e3e4 currmovenumber 38",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i3i4 currmovenumber 39",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2c2 currmovenumber 40",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h5 currmovenumber 41",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a3a4 currmovenumber 42",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b4 currmovenumber 43",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0a2 currmovenumber 44",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 40 seldepth 60 multipv 1 score cp 18 nodes 79837531 nps 910358 hashfull 1000 tbhits 0 time 87699 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 c6c5 b0a2 b9c7 b2c2 c7b5 a0a1 c9e7 e3e4 d9e8 a1d1 h7i7 h6h9 g7h9 e2e6 a6a5 g2e3 h9g7 e6e5 b5a3 c2c5 a9d9 d1d9 e9d9 c5d5 b7b6 g3g4 b6e6 g4g5 e7g5 c0e2 i7i3 d0e1 e6e4 e5a5 g7e6",
+      "depth": 40,
+      "seldepth": 60,
+      "nodes": 79837531,
+      "nps": 910358,
+      "time_ms": 87699,
+      "score_type": "cp",
+      "score": 18,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "c6c5",
+        "b0a2",
+        "b9c7",
+        "b2c2",
+        "c7b5",
+        "a0a1",
+        "c9e7",
+        "e3e4",
+        "d9e8",
+        "a1d1",
+        "h7i7",
+        "h6h9",
+        "g7h9",
+        "e2e6",
+        "a6a5",
+        "g2e3",
+        "h9g7",
+        "e6e5",
+        "b5a3",
+        "c2c5",
+        "a9d9",
+        "d1d9",
+        "e9d9",
+        "c5d5",
+        "b7b6",
+        "g3g4",
+        "b6e6",
+        "g4g5",
+        "e7g5",
+        "c0e2",
+        "i7i3",
+        "d0e1",
+        "e6e4",
+        "e5a5",
+        "g7e6"
+      ]
+    },
+    {
+      "raw": "info depth 41 currmove h2e2 currmovenumber 1",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 seldepth 59 multipv 1 score cp 21 lowerbound nodes 81508876 nps 909402 hashfull 1000 tbhits 0 time 89629 pv h2e2",
+      "depth": 41,
+      "seldepth": 59,
+      "nodes": 81508876,
+      "nps": 909402,
+      "time_ms": 89629,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 40 currmove h2e2 currmovenumber 1",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 41 seldepth 59 multipv 1 score cp 23 lowerbound nodes 82869380 nps 909363 hashfull 1000 tbhits 0 time 91129 pv h2e2",
+      "depth": 41,
+      "seldepth": 59,
+      "nodes": 82869380,
+      "nps": 909363,
+      "time_ms": 91129,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 39 currmove h2e2 currmovenumber 1",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b9 currmovenumber 2",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h9 currmovenumber 3",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c3c4 currmovenumber 4",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g3g4 currmovenumber 5",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0g2 currmovenumber 6",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2e2 currmovenumber 7",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0c2 currmovenumber 8",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a3a4 currmovenumber 9",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2a2 currmovenumber 10",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h4 currmovenumber 11",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b5 currmovenumber 12",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0e2 currmovenumber 13",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove d0e1 currmovenumber 14",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h5 currmovenumber 15",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h6 currmovenumber 16",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e3e4 currmovenumber 17",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove f0e1 currmovenumber 18",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0i2 currmovenumber 19",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove e0e1 currmovenumber 20",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b6 currmovenumber 21",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove c0a2 currmovenumber 22",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2f2 currmovenumber 23",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b1 currmovenumber 24",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i2 currmovenumber 25",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h1 currmovenumber 26",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2d2 currmovenumber 27",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2i2 currmovenumber 28",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2c2 currmovenumber 29",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2h3 currmovenumber 30",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2d2 currmovenumber 31",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2g2 currmovenumber 32",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b3 currmovenumber 33",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a2 currmovenumber 34",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b0a2 currmovenumber 35",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2f2 currmovenumber 36",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2c2 currmovenumber 37",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h0i2 currmovenumber 38",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove a0a1 currmovenumber 39",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove g0e2 currmovenumber 40",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i3i4 currmovenumber 41",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove b2b4 currmovenumber 42",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove i0i1 currmovenumber 43",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 39 currmove h2g2 currmovenumber 44",
+      "depth": 39
+    },
+    {
+      "raw": "info depth 41 seldepth 59 multipv 1 score cp 20 upperbound nodes 83831788 nps 909031 hashfull 1000 tbhits 0 time 92221 pv h2e2 h9g7",
+      "depth": 41,
+      "seldepth": 59,
+      "nodes": 83831788,
+      "nps": 909031,
+      "time_ms": 92221,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 41 currmove h2e2 currmovenumber 1",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 seldepth 59 multipv 1 score cp 20 lowerbound nodes 84184597 nps 908963 hashfull 1000 tbhits 0 time 92616 pv h2e2",
+      "depth": 41,
+      "seldepth": 59,
+      "nodes": 84184597,
+      "nps": 908963,
+      "time_ms": 92616,
+      "score_type": "cp",
+      "score": 20,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 40 currmove h2e2 currmovenumber 1",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2b9 currmovenumber 2",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2h9 currmovenumber 3",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2e2 currmovenumber 4",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h0g2 currmovenumber 5",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b0c2 currmovenumber 6",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove c3c4 currmovenumber 7",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove g3g4 currmovenumber 8",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2f2 currmovenumber 9",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2a2 currmovenumber 10",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove f0e1 currmovenumber 11",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2c2 currmovenumber 12",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove c0e2 currmovenumber 13",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2d2 currmovenumber 14",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove a3a4 currmovenumber 15",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove a0a1 currmovenumber 16",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2c2 currmovenumber 17",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove e3e4 currmovenumber 18",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove g0e2 currmovenumber 19",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2b5 currmovenumber 20",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2h6 currmovenumber 21",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2f2 currmovenumber 22",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove c0a2 currmovenumber 23",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2b6 currmovenumber 24",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2h4 currmovenumber 25",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove g0i2 currmovenumber 26",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove e0e1 currmovenumber 27",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2b1 currmovenumber 28",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove i0i2 currmovenumber 29",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h0i2 currmovenumber 30",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2d2 currmovenumber 31",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2h1 currmovenumber 32",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove i0i1 currmovenumber 33",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2g2 currmovenumber 34",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2h3 currmovenumber 35",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2b3 currmovenumber 36",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove d0e1 currmovenumber 37",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove a0a2 currmovenumber 38",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2i2 currmovenumber 39",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2g2 currmovenumber 40",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove i3i4 currmovenumber 41",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove h2h5 currmovenumber 42",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b2b4 currmovenumber 43",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 40 currmove b0a2 currmovenumber 44",
+      "depth": 40
+    },
+    {
+      "raw": "info depth 41 seldepth 59 multipv 1 score cp 22 nodes 85303621 nps 909110 hashfull 1000 tbhits 0 time 93832 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 c6c5 b0a2 b9c7 b2c2 c7b5 a0a1 d9e8 a1d1 a6a5 e3e4 h7i7 e2e6 c9e7 h6h9 g7h9 e6e5 b5a3 c2c5 a9d9 d1d9 e9d9 c5d5 a5a4 d5d4 a3c2 g3g4 a4a3 g4g5 e7g5",
+      "depth": 41,
+      "seldepth": 59,
+      "nodes": 85303621,
+      "nps": 909110,
+      "time_ms": 93832,
+      "score_type": "cp",
+      "score": 22,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "c6c5",
+        "b0a2",
+        "b9c7",
+        "b2c2",
+        "c7b5",
+        "a0a1",
+        "d9e8",
+        "a1d1",
+        "a6a5",
+        "e3e4",
+        "h7i7",
+        "e2e6",
+        "c9e7",
+        "h6h9",
+        "g7h9",
+        "e6e5",
+        "b5a3",
+        "c2c5",
+        "a9d9",
+        "d1d9",
+        "e9d9",
+        "c5d5",
+        "a5a4",
+        "d5d4",
+        "a3c2",
+        "g3g4",
+        "a4a3",
+        "g4g5",
+        "e7g5"
+      ]
+    },
+    {
+      "raw": "info depth 42 currmove h2e2 currmovenumber 1",
+      "depth": 42
+    },
+    {
+      "raw": "info depth 42 seldepth 51 multipv 1 score cp 24 lowerbound nodes 88118194 nps 908847 hashfull 1000 tbhits 0 time 96956 pv h2e2",
+      "depth": 42,
+      "seldepth": 51,
+      "nodes": 88118194,
+      "nps": 908847,
+      "time_ms": 96956,
+      "score_type": "cp",
+      "score": 24,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 41 currmove h2e2 currmovenumber 1",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h9 currmovenumber 2",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b9 currmovenumber 3",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h0g2 currmovenumber 4",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2e2 currmovenumber 5",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove g3g4 currmovenumber 6",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove c3c4 currmovenumber 7",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2c2 currmovenumber 8",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h3 currmovenumber 9",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2d2 currmovenumber 10",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h6 currmovenumber 11",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b0c2 currmovenumber 12",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2c2 currmovenumber 13",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2d2 currmovenumber 14",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove a3a4 currmovenumber 15",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2a2 currmovenumber 16",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove i0i2 currmovenumber 17",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h4 currmovenumber 18",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h1 currmovenumber 19",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b1 currmovenumber 20",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove g0i2 currmovenumber 21",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove e0e1 currmovenumber 22",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove c0a2 currmovenumber 23",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b5 currmovenumber 24",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2f2 currmovenumber 25",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b3 currmovenumber 26",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2g2 currmovenumber 27",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove a0a2 currmovenumber 28",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b6 currmovenumber 29",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2i2 currmovenumber 30",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove d0e1 currmovenumber 31",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h0i2 currmovenumber 32",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h5 currmovenumber 33",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove a0a1 currmovenumber 34",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove f0e1 currmovenumber 35",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove e3e4 currmovenumber 36",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove i3i4 currmovenumber 37",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2f2 currmovenumber 38",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove g0e2 currmovenumber 39",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b4 currmovenumber 40",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove i0i1 currmovenumber 41",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2g2 currmovenumber 42",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove c0e2 currmovenumber 43",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b0a2 currmovenumber 44",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 42 seldepth 53 multipv 1 score cp 21 upperbound nodes 91149682 nps 908136 hashfull 1000 tbhits 0 time 100370 pv h2e2 h9g7",
+      "depth": 42,
+      "seldepth": 53,
+      "nodes": 91149682,
+      "nps": 908136,
+      "time_ms": 100370,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2",
+        "h9g7"
+      ]
+    },
+    {
+      "raw": "info depth 42 currmove h2e2 currmovenumber 1",
+      "depth": 42
+    },
+    {
+      "raw": "info depth 42 seldepth 53 multipv 1 score cp 21 lowerbound nodes 93105603 nps 898234 hashfull 1000 tbhits 0 time 103654 pv h2e2",
+      "depth": 42,
+      "seldepth": 53,
+      "nodes": 93105603,
+      "nps": 898234,
+      "time_ms": 103654,
+      "score_type": "cp",
+      "score": 21,
+      "pv": [
+        "h2e2"
+      ]
+    },
+    {
+      "raw": "info depth 41 currmove h2e2 currmovenumber 1",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h9 currmovenumber 2",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b9 currmovenumber 3",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2e2 currmovenumber 4",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h0g2 currmovenumber 5",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b0c2 currmovenumber 6",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h4 currmovenumber 7",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove c3c4 currmovenumber 8",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove g3g4 currmovenumber 9",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove c0e2 currmovenumber 10",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b0a2 currmovenumber 11",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove d0e1 currmovenumber 12",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2f2 currmovenumber 13",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove a0a2 currmovenumber 14",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove g0i2 currmovenumber 15",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b4 currmovenumber 16",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove i0i1 currmovenumber 17",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b1 currmovenumber 18",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove i0i2 currmovenumber 19",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove a0a1 currmovenumber 20",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove e0e1 currmovenumber 21",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2g2 currmovenumber 22",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h3 currmovenumber 23",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2g2 currmovenumber 24",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove c0a2 currmovenumber 25",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h1 currmovenumber 26",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b5 currmovenumber 27",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b3 currmovenumber 28",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2b6 currmovenumber 29",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2i2 currmovenumber 30",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h0i2 currmovenumber 31",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2c2 currmovenumber 32",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2d2 currmovenumber 33",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2d2 currmovenumber 34",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2c2 currmovenumber 35",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove a3a4 currmovenumber 36",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h5 currmovenumber 37",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove f0e1 currmovenumber 38",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2f2 currmovenumber 39",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove e3e4 currmovenumber 40",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove i3i4 currmovenumber 41",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove h2h6 currmovenumber 42",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove g0e2 currmovenumber 43",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 41 currmove b2a2 currmovenumber 44",
+      "depth": 41
+    },
+    {
+      "raw": "info depth 42 seldepth 56 multipv 1 score cp 23 nodes 97104732 nps 892424 hashfull 1000 tbhits 0 time 108810 pv h2e2 h9g7 h0g2 g6g5 i0h0 i9h9 h0h6 b9c7 c3c4 h7i7 h6g6 i7i8 b0c2 i8g8 g6f6 d9e8 c2d4 h9h4 b2b4 c9e7 e2d2 c6c5 g3g4 h4h5 c4c5 e7c5 b4c4 c7d5 f6f8 b7b8 d2d5 b8f8 d5h5 a9d9 d4f5 g7h5 g4g5 h5g3 c0e2 g3f5 g5f5 d9d4 f0e1 f8f6",
+      "depth": 42,
+      "seldepth": 56,
+      "nodes": 97104732,
+      "nps": 892424,
+      "time_ms": 108810,
+      "score_type": "cp",
+      "score": 23,
+      "pv": [
+        "h2e2",
+        "h9g7",
+        "h0g2",
+        "g6g5",
+        "i0h0",
+        "i9h9",
+        "h0h6",
+        "b9c7",
+        "c3c4",
+        "h7i7",
+        "h6g6",
+        "i7i8",
+        "b0c2",
+        "i8g8",
+        "g6f6",
+        "d9e8",
+        "c2d4",
+        "h9h4",
+        "b2b4",
+        "c9e7",
+        "e2d2",
+        "c6c5",
+        "g3g4",
+        "h4h5",
+        "c4c5",
+        "e7c5",
+        "b4c4",
+        "c7d5",
+        "f6f8",
+        "b7b8",
+        "d2d5",
+        "b8f8",
+        "d5h5",
+        "a9d9",
+        "d4f5",
+        "g7h5",
+        "g4g5",
+        "h5g3",
+        "c0e2",
+        "g3f5",
+        "g5f5",
+        "d9d4",
+        "f0e1",
+        "f8f6"
+      ]
+    }
+  ],
+  "bestmove_from_last_pv": "h2e2"
+}
