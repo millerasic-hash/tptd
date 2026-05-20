@@ -1,0 +1,26 @@
+{
+  "fen": "3RkR3/3R1R3/4R4/9/9/9/9/9/9/4K4 w - - 0 1",
+  "method": "dfpn",
+  "depth": 1,
+  "max_nodes": 100,
+  "repetition_limit": 2,
+  "status": "WIN",
+  "pn": 0,
+  "dn": 1000000000,
+  "searched_nodes": 2,
+  "tt_hits": 0,
+  "proof": {
+    "fen": "3RkR3/3R1R3/4R4/9/9/9/9/9/9/4K4 w - - 0 1",
+    "side": "w",
+    "status": "WIN",
+    "witness": "d8a8",
+    "child": {
+      "fen": "3RkR3/R4R3/4R4/9/9/9/9/9/9/4K4 b - - 0 1",
+      "side": "b",
+      "status": "LOSS",
+      "terminal": "no_legal_moves"
+    },
+    "pn": 0,
+    "dn": 1000000000
+  }
+}
