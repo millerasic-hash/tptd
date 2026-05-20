@@ -138,6 +138,39 @@ reports/1024x12/sample_1024_positions.txt
 
 解释：在这个资源预算下，开局附近样本没有形成任何闭合胜负证书，所以不能推出“Pikafish 分数大于多少必胜”。它只能作为轻量证明器的第一条资源基线：当前 1024 节点/12 半回合不足以证明这些开局附近局面。
 
+## 1024x48 红方胜平负对局
+
+复现 1024 个样本、每个样本最多继续 48 半回合的 Pikafish 自对弈：
+
+```bash
+python3 run_1024x48_games.py \
+  --sample-count 1024 \
+  --source-plies 2 \
+  --max-plies 48 \
+  --engine-depth 1 \
+  --out-dir reports/1024x48-games \
+  --keep-moves
+```
+
+本次报告文件：
+
+```text
+reports/1024x48-games/pikafish_1024x48_red_wdl.md
+reports/1024x48-games/pikafish_1024x48_red_wdl.json
+reports/1024x48-games/sample_1024_positions.txt
+```
+
+本次结果按“先行方 = 红方”统计：
+
+- 红方胜：`94 / 1024 = 9.18%`。
+- 平：`865 / 1024 = 84.47%`。
+- 红方负：`65 / 1024 = 6.35%`。
+- 终止原因：`black_checkmated: 94`，`red_checkmated: 65`，`max_plies: 782`，`repetition: 83`。
+- 平均半回合数：`45.4`。
+- 运行耗时：`93.179` 秒。
+
+解释：这里的“平”是实验平局，表示 48 半回合内没有将死，或同一状态第 3 次出现；它不是数学上的必和证明。
+
 ## 坐标
 
 走法使用类 UCI 坐标：
