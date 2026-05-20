@@ -203,6 +203,49 @@ reports/1x256/pikafish_1x_depth.json
 
 解释：这不是“完成 depth 256”的结果，而是一次 `go depth 256` 请求在本机 120 秒上限内实际达到的结果。开局局面直接完成 depth 256 不现实。
 
+## 1 局 depth 42 完整自弈
+
+复现从标准开局开始，红黑双方每步都向 Pikafish 请求 `go depth 42` 的一盘自弈：
+
+```bash
+python3 run_1_game_depth.py \
+  --depth 42 \
+  --per-move-max-seconds 180 \
+  --max-plies 256 \
+  --out-dir reports/1-game-depth42
+```
+
+本次报告文件：
+
+```text
+reports/1-game-depth42/pikafish_1_game_depth42.md
+reports/1-game-depth42/pikafish_1_game_depth42.json
+```
+
+本次结果：
+
+- 结果：`DRAW`。
+- 原因：`repetition`，第 44 半回合后同一状态第 3 次出现。
+- 总半回合数：`44`。
+- 总耗时：`2000.891` 秒。
+- 最终 FEN：`3akab2/2rn5/cR3r3/p3p3p/2b6/6p2/P3P3P/3CC4/2R6/2BAKAB2 w - - 0 1`。
+- 43 步正常完成；第 5 半回合达到 depth 42 报告后触发 `per-move-max-seconds=180`，因此严格说这一步不是 clean completed bestmove。
+
+重复前后的关键循环：
+
+```text
+37. w b7b5
+38. b f7f4
+39. w b5b7
+40. b f4f7
+41. w b7b5
+42. b f7f5
+43. w b5b7
+44. b f5f7
+```
+
+解释：这是一次固定引擎深度的实战自弈记录，不是数学证明。结果只说明在本机这组参数下，标准开局 depth 42 自弈进入重复和棋。
+
 ## 坐标
 
 走法使用类 UCI 坐标：
