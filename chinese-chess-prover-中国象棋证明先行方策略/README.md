@@ -22,6 +22,12 @@
 - Proof Cost Network 思路：目前用 Pikafish `cp/mate` 分数映射成 proof cost；以后可以替换成训练网络。
 - Retrograde：当前预留接口思路，尚未接残局库。
 
+进一步的数学证明路线见：
+
+```text
+docs/mathematical_proof_paths.md
+```
+
 ## 本机 Pikafish
 
 本次实验已下载官方无头引擎到：
