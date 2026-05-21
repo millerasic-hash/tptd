@@ -28,6 +28,12 @@
 docs/mathematical_proof_paths.md
 ```
 
+渐进式实验方案见：
+
+```text
+docs/progressive_experiment_plan.md
+```
+
 ## 本机 Pikafish
 
 本次实验已下载官方无头引擎到：
