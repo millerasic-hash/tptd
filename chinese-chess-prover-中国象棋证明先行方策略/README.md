@@ -465,6 +465,16 @@ reports/parameter-combo-pilot/cache/*.json
 - `c3c4` 是当前 2D pilot 中最稳的候选，但 leader 仍然切换。
 - 不能升级为 `L1 Hypothesis`，下一轮应先加密 depth 或加入 Hash 维度验证稳定性。
 
+自动阶梯运行：
+
+```bash
+python3 combo_auto_runner.py \
+  --base-dir reports/parameter-combo-auto \
+  --target-seconds 300
+```
+
+这个运行器从 `22 -> 33 -> 44 -> 55 -> 66` 分阶段推进，每次只跑一小片组合，并在 `reports/parameter-combo-auto/state.json` 记录断点和下一轮候选。
+
 ## Top-k 候选稳定性深搜
 
 基于小参数矩阵，选择 9 个候选首着做中等深度稳定性实验：

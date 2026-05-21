@@ -1,0 +1,86 @@
+{
+  "red_move": "b2e2",
+  "fen_after_red_move": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/4C2C1/9/RNBAKABNR b - - 0 1",
+  "config": {
+    "engine": "tools/pikafish/MacOS/pikafish-apple-silicon",
+    "engine_cwd": "tools/pikafish",
+    "depth": 12,
+    "multipv": 1,
+    "threads": 1,
+    "hash_mb": 128,
+    "clear_hash": true,
+    "show_wdl": true,
+    "max_seconds": 15.0,
+    "repetition_limit": 3
+  },
+  "query": {
+    "depth_requested": 12,
+    "highest_depth": 12,
+    "bestmove": "b9c7",
+    "stopped_by": "completed",
+    "runtime_seconds": 0.026,
+    "multipv": [
+      {
+        "raw": "info depth 12 seldepth 21 multipv 1 score cp -22 wdl 14 925 61 nodes 23258 nps 894538 hashfull 0 tbhits 0 time 26 pv b9c7 c3c4 g6g5 b0c2 a9b9 h2g2 h9g7",
+        "depth": 12,
+        "seldepth": 21,
+        "multipv": 1,
+        "nodes": 23258,
+        "nps": 894538,
+        "hashfull": 0,
+        "tbhits": 0,
+        "time_ms": 26,
+        "score_type": "cp",
+        "score": -22,
+        "wdl": [
+          14,
+          925,
+          61
+        ],
+        "pv": [
+          "b9c7",
+          "c3c4",
+          "g6g5",
+          "b0c2",
+          "a9b9",
+          "h2g2",
+          "h9g7"
+        ],
+        "red_score": 22,
+        "pv_legal_plies": 7,
+        "pv_has_repeat": false,
+        "pv_first_repeat_at": null,
+        "pv_reaches_repetition_limit": false,
+        "pv_repetition_limit_at": null,
+        "pv_illegal_move": null,
+        "pv_end_fen": "1rbakab1r/9/1cn3nc1/p1p1p3p/6p2/2P6/P3P1P1P/2N1C1C2/9/R1BAKABNR w - - 0 1"
+      }
+    ]
+  },
+  "top": {
+    "best_reply": "b9c7",
+    "red_score": 22,
+    "engine_score_type": "cp",
+    "engine_score": -22,
+    "nodes": 23258,
+    "time_ms": 26,
+    "seldepth": 21,
+    "hashfull": 0,
+    "wdl": [
+      14,
+      925,
+      61
+    ],
+    "pv": [
+      "b9c7",
+      "c3c4",
+      "g6g5",
+      "b0c2",
+      "a9b9",
+      "h2g2",
+      "h9g7"
+    ],
+    "pv_has_repeat": false,
+    "pv_reaches_repetition_limit": false
+  }
+}

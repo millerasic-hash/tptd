@@ -1,0 +1,122 @@
+{
+  "red_move": "c3c4",
+  "fen_after_red_move": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/2P6/P3P1P1P/1C5C1/9/RNBAKABNR b - - 0 1",
+  "config": {
+    "engine": "tools/pikafish/MacOS/pikafish-apple-silicon",
+    "engine_cwd": "tools/pikafish",
+    "depth": 10,
+    "multipv": 2,
+    "threads": 1,
+    "hash_mb": 128,
+    "clear_hash": true,
+    "show_wdl": true,
+    "max_seconds": 15.0,
+    "repetition_limit": 3
+  },
+  "query": {
+    "depth_requested": 10,
+    "highest_depth": 10,
+    "bestmove": "b7c7",
+    "stopped_by": "completed",
+    "runtime_seconds": 0.028,
+    "multipv": [
+      {
+        "raw": "info depth 10 seldepth 16 multipv 1 score cp -27 wdl 12 918 70 nodes 29727 nps 1101000 hashfull 0 tbhits 0 time 27 pv b7c7 h2e2 h7e7 b0c2 c6c5 c2d4 c5c4",
+        "depth": 10,
+        "seldepth": 16,
+        "multipv": 1,
+        "nodes": 29727,
+        "nps": 1101000,
+        "hashfull": 0,
+        "tbhits": 0,
+        "time_ms": 27,
+        "score_type": "cp",
+        "score": -27,
+        "wdl": [
+          12,
+          918,
+          70
+        ],
+        "pv": [
+          "b7c7",
+          "h2e2",
+          "h7e7",
+          "b0c2",
+          "c6c5",
+          "c2d4",
+          "c5c4"
+        ],
+        "red_score": 27,
+        "pv_legal_plies": 7,
+        "pv_has_repeat": false,
+        "pv_first_repeat_at": null,
+        "pv_reaches_repetition_limit": false,
+        "pv_repetition_limit_at": null,
+        "pv_illegal_move": null,
+        "pv_end_fen": "rnbakabnr/9/2c1c4/p3p1p1p/9/2pN5/P3P1P1P/1C2C4/9/R1BAKABNR w - - 0 1"
+      },
+      {
+        "raw": "info depth 10 seldepth 16 multipv 2 score cp -27 wdl 11 918 71 nodes 29727 nps 1101000 hashfull 0 tbhits 0 time 27 pv g6g5 h0i2 h9g7 h2g2 c9e7 i0h0 i9h9 c0e2",
+        "depth": 10,
+        "seldepth": 16,
+        "multipv": 2,
+        "nodes": 29727,
+        "nps": 1101000,
+        "hashfull": 0,
+        "tbhits": 0,
+        "time_ms": 27,
+        "score_type": "cp",
+        "score": -27,
+        "wdl": [
+          11,
+          918,
+          71
+        ],
+        "pv": [
+          "g6g5",
+          "h0i2",
+          "h9g7",
+          "h2g2",
+          "c9e7",
+          "i0h0",
+          "i9h9",
+          "c0e2"
+        ],
+        "red_score": 27,
+        "pv_legal_plies": 8,
+        "pv_has_repeat": false,
+        "pv_first_repeat_at": null,
+        "pv_reaches_repetition_limit": false,
+        "pv_repetition_limit_at": null,
+        "pv_illegal_move": null,
+        "pv_end_fen": "rn1akabr1/9/1c2b1nc1/p1p1p3p/6p2/2P6/P3P1P1P/1C2B1C1N/9/RN1AKABR1 b - - 0 1"
+      }
+    ]
+  },
+  "top": {
+    "best_reply": "b7c7",
+    "red_score": 27,
+    "engine_score_type": "cp",
+    "engine_score": -27,
+    "nodes": 29727,
+    "time_ms": 27,
+    "seldepth": 16,
+    "hashfull": 0,
+    "wdl": [
+      12,
+      918,
+      70
+    ],
+    "pv": [
+      "b7c7",
+      "h2e2",
+      "h7e7",
+      "b0c2",
+      "c6c5",
+      "c2d4",
+      "c5c4"
+    ],
+    "pv_has_repeat": false,
+    "pv_reaches_repetition_limit": false
+  }
+}

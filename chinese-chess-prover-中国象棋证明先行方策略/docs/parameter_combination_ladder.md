@@ -268,3 +268,51 @@ Hash = 128 MB
 ```
 
 也就是先加密 `depth x MultiPV`，再进入三参数 `+Hash`。
+
+## 11. 自动执行规则
+
+长期运行不直接一次性跑完整 66 笛卡尔积，而是使用：
+
+```text
+combo_auto_runner.py
+```
+
+每次执行只跑一小片组合，并维护状态：
+
+```text
+reports/parameter-combo-auto/state.json
+```
+
+阶段解释：
+
+| 阶段 | 含义 | 新增镜头 |
+|:---|:---|:---|
+| `22` | 2 参数组合 | `depth x MultiPV` |
+| `33` | 3 参数组合 | `+ Hash` |
+| `44` | 4 参数组合 | `+ ClearHash` |
+| `55` | 5 参数组合 | `+ Threads` |
+| `66` | 6 参数组合 | `+ WDL` |
+
+执行命令：
+
+```bash
+python3 combo_auto_runner.py \
+  --base-dir reports/parameter-combo-auto \
+  --target-seconds 300
+```
+
+调度规则：
+
+- 默认每 5 分钟执行一次。
+- 每次执行后读取 `state.json` 继续断点。
+- 阶段完成后按 `top_count / score_avg / score_range` 选择下一阶段候选。
+- 如果本轮耗时或下一轮预测超过 300 秒，报告会给出更长的 `recommended_interval_minutes`。
+- 所有自动阶段仍然只产生 `L0 Observation`，不得直接升级为 proof。
+
+输出：
+
+```text
+reports/parameter-combo-auto/round-XXXX/combo_auto_summary.md
+reports/parameter-combo-auto/round-XXXX/combo_auto_summary.json
+reports/parameter-combo-auto/round-XXXX/stage-XX/config-YYYY/
+```

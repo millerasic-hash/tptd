@@ -1,0 +1,102 @@
+{
+  "status": "stage_complete_advanced",
+  "run_id": "round-0001",
+  "stage_label": "22",
+  "stage_description": "depth x MultiPV",
+  "candidates": [
+    "c3c4",
+    "b2e2",
+    "c0e2",
+    "h2e2"
+  ],
+  "configs_run": 4,
+  "stage_cursor": 4,
+  "stage_total_configs": 4,
+  "wall_runtime_seconds": 1.811,
+  "avg_query_seconds": 0.69,
+  "recommended_interval_minutes": 5,
+  "candidate_stats": [
+    {
+      "red_move": "c3c4",
+      "observations": 4,
+      "top_count": 2,
+      "top_share": 0.5,
+      "score_avg": 26.75,
+      "score_min": 23,
+      "score_max": 30,
+      "score_range": 7,
+      "rank_avg": 1.5,
+      "reply_count": 2,
+      "replies": [
+        "b7c7",
+        "g6g5"
+      ],
+      "pv_repeat_count": 0
+    },
+    {
+      "red_move": "h2e2",
+      "observations": 4,
+      "top_count": 1,
+      "top_share": 0.25,
+      "score_avg": 25.0,
+      "score_min": 22,
+      "score_max": 29,
+      "score_range": 7,
+      "rank_avg": 2.25,
+      "reply_count": 1,
+      "replies": [
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    },
+    {
+      "red_move": "b2e2",
+      "observations": 4,
+      "top_count": 1,
+      "top_share": 0.25,
+      "score_avg": 23.5,
+      "score_min": 18,
+      "score_max": 28,
+      "score_range": 10,
+      "rank_avg": 2.75,
+      "reply_count": 1,
+      "replies": [
+        "b9c7"
+      ],
+      "pv_repeat_count": 0
+    },
+    {
+      "red_move": "c0e2",
+      "observations": 4,
+      "top_count": 0,
+      "top_share": 0.0,
+      "score_avg": 20.0,
+      "score_min": 16,
+      "score_max": 26,
+      "score_range": 10,
+      "rank_avg": 3.5,
+      "reply_count": 3,
+      "replies": [
+        "b7e7",
+        "c6c5",
+        "h7f7"
+      ],
+      "pv_repeat_count": 0
+    }
+  ],
+  "next_stage_label": "33",
+  "next_candidates": [
+    "c3c4",
+    "h2e2",
+    "b2e2",
+    "c0e2"
+  ],
+  "closure_level": "L0 Observation",
+  "reports": [
+    "reports/parameter-combo-auto/round-0001/stage-22/config-0001/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0001/stage-22/config-0002/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0001/stage-22/config-0003/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0001/stage-22/config-0004/parameter_combo_probe_report.json"
+  ],
+  "state_path": "reports/parameter-combo-auto/state.json"
+}
