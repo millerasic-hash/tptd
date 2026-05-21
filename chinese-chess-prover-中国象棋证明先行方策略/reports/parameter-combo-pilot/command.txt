@@ -1,0 +1,1 @@
+parameter_combo_probe.py --candidates c3c4,b2e2,c0e2,h2e2 --depths 10,12 --multipvs 1,2 --hashes-mb 128 --threads-list 1 --clear-hash-modes true --show-wdl-modes true --per-query-max-seconds 15 --out-dir reports/parameter-combo-pilot

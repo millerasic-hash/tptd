@@ -1,0 +1,78 @@
+{
+  "red_move": "c0e2",
+  "fen_after_red_move": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C2B2C1/9/RN1AKABNR b - - 0 1",
+  "config": {
+    "engine": "tools/pikafish/MacOS/pikafish-apple-silicon",
+    "engine_cwd": "tools/pikafish",
+    "depth": 12,
+    "multipv": 1,
+    "threads": 1,
+    "hash_mb": 128,
+    "clear_hash": true,
+    "show_wdl": true,
+    "max_seconds": 15.0,
+    "repetition_limit": 3
+  },
+  "query": {
+    "depth_requested": 12,
+    "highest_depth": 12,
+    "bestmove": "c6c5",
+    "stopped_by": "completed",
+    "runtime_seconds": 0.058,
+    "multipv": [
+      {
+        "raw": "info depth 12 seldepth 17 multipv 1 score cp -26 wdl 12 920 68 nodes 61857 nps 1066500 hashfull 2 tbhits 0 time 58 pv c6c5 h0g2 c9e7",
+        "depth": 12,
+        "seldepth": 17,
+        "multipv": 1,
+        "nodes": 61857,
+        "nps": 1066500,
+        "hashfull": 2,
+        "tbhits": 0,
+        "time_ms": 58,
+        "score_type": "cp",
+        "score": -26,
+        "wdl": [
+          12,
+          920,
+          68
+        ],
+        "pv": [
+          "c6c5",
+          "h0g2",
+          "c9e7"
+        ],
+        "red_score": 26,
+        "pv_legal_plies": 3,
+        "pv_has_repeat": false,
+        "pv_first_repeat_at": null,
+        "pv_reaches_repetition_limit": false,
+        "pv_repetition_limit_at": null,
+        "pv_illegal_move": null,
+        "pv_end_fen": "rn1akabnr/9/1c2b2c1/p3p1p1p/2p6/9/P1P1P1P1P/1C2B1NC1/9/RN1AKAB1R w - - 0 1"
+      }
+    ]
+  },
+  "top": {
+    "best_reply": "c6c5",
+    "red_score": 26,
+    "engine_score_type": "cp",
+    "engine_score": -26,
+    "nodes": 61857,
+    "time_ms": 58,
+    "seldepth": 17,
+    "hashfull": 2,
+    "wdl": [
+      12,
+      920,
+      68
+    ],
+    "pv": [
+      "c6c5",
+      "h0g2",
+      "c9e7"
+    ],
+    "pv_has_repeat": false,
+    "pv_reaches_repetition_limit": false
+  }
+}

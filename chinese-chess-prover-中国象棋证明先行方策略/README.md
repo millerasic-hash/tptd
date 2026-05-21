@@ -46,6 +46,12 @@ docs/progressive_experiment_plan.md
 docs/proof_closure_protocol.md
 ```
 
+参数组合阶梯实验见：
+
+```text
+docs/parameter_combination_ladder.md
+```
+
 ## 本机 Pikafish
 
 本次实验已下载官方无头引擎到：
@@ -390,6 +396,74 @@ depth 12 / MultiPV 4 的后 10 个红方首着：
 - depth 12 / MultiPV 4 没有任何顶层 PV 出现重复。
 - 小 depth 的 leader 会明显跳动，例如 `b2e2`、`h2e2`、`g3g4`、`c3c4` 都曾在不同参数下排第一。
 - 到 depth 12 时，正分首着仍集中在 `+15` 到 `+27` 的窄区间，说明这个资源层级仍只是排序信号，不是胜势证明。
+
+## 参数组合 2D Pilot
+
+按参数组合阶梯，第一轮只变化两个参数：
+
+```text
+depth x MultiPV
+```
+
+固定项：
+
+```text
+candidates = c3c4,b2e2,c0e2,h2e2
+Hash = 128 MB
+Threads = 1
+Clear Hash = true
+UCI_ShowWDL = true
+per-query-max-seconds = 15
+```
+
+复现命令：
+
+```bash
+python3 parameter_combo_probe.py \
+  --candidates c3c4,b2e2,c0e2,h2e2 \
+  --depths 10,12 \
+  --multipvs 1,2 \
+  --hashes-mb 128 \
+  --threads-list 1 \
+  --clear-hash-modes true \
+  --show-wdl-modes true \
+  --per-query-max-seconds 15 \
+  --out-dir reports/parameter-combo-pilot
+```
+
+报告文件：
+
+```text
+reports/parameter-combo-pilot/parameter_combo_probe_report.md
+reports/parameter-combo-pilot/parameter_combo_probe_report.json
+reports/parameter-combo-pilot/command.txt
+reports/parameter-combo-pilot/cache/*.json
+```
+
+本轮结果：
+
+- 配置数：`4`。
+- 观察行：`16`。
+- 首次实算 wall runtime：`1.383` 秒。
+- 缓存复核 wall runtime：`0.007` 秒。
+- 缓存命中：`16 / 16`。
+- 全部完成，无超时。
+- leader 出现 `3` 个：`c3c4 / b2e2 / h2e2`。
+
+候选稳健性：
+
+| Rank | 红方首着 | 领先次数 | 平均分 | 分数范围 | 平均排名 | 应着种类 |
+|---:|:---|---:|---:|---:|---:|---:|
+| 1 | `c3c4` | `2 / 4` | `26.75` | `7` | `1.5` | `2` |
+| 2 | `h2e2` | `1 / 4` | `25.0` | `7` | `2.25` | `1` |
+| 3 | `b2e2` | `1 / 4` | `23.5` | `10` | `2.75` | `1` |
+| 4 | `c0e2` | `0 / 4` | `20.0` | `10` | `3.5` | `3` |
+
+闭环解释：
+
+- 本报告只产生 `L0 Observation`。
+- `c3c4` 是当前 2D pilot 中最稳的候选，但 leader 仍然切换。
+- 不能升级为 `L1 Hypothesis`，下一轮应先加密 depth 或加入 Hash 维度验证稳定性。
 
 ## Top-k 候选稳定性深搜
 

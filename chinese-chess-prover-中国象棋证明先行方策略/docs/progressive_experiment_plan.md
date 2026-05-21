@@ -24,6 +24,14 @@ docs/proof_closure_protocol.md
 
 后续所有报告必须区分 `Observation / Hypothesis / Proof Obligation / Verified Claim / Lemma / Theorem`，不能从引擎分数直接跳到证明结论。
 
+Pikafish 参数组合实验按阶梯推进：
+
+```text
+docs/parameter_combination_ladder.md
+```
+
+参数维度从 `depth x MultiPV` 开始，再逐步加入 `Hash / ClearHash / Threads / ResourceLens`。
+
 ## 全局实验约束
 
 ### 固定规则
@@ -263,6 +271,38 @@ effective_candidates ~= 8.923 / 9
 ```
 
 解释：候选之间没有明显拉开。下一轮如继续开局方向，应只保留 `c3c4 / b2e2 / c0e2`，并用 `h2e2` 做对照。
+
+### 参数组合补充实验
+
+已建立参数组合脚本：
+
+```text
+parameter_combo_probe.py
+```
+
+第一轮 2D pilot 只变化：
+
+```text
+depth x MultiPV
+```
+
+报告：
+
+```text
+reports/parameter-combo-pilot/parameter_combo_probe_report.md
+reports/parameter-combo-pilot/parameter_combo_probe_report.json
+```
+
+结论：
+
+```text
+c3c4 leader 2/4
+b2e2 leader 1/4
+h2e2 leader 1/4
+c0e2 leader 0/4
+```
+
+因为 leader 出现 `3` 个，本轮仍为 `L0 Observation`，不能升级为 `L1 Hypothesis`。下一轮优先加密 `depth x MultiPV`，再加入 `Hash` 维度。
 
 ### 通过条件
 

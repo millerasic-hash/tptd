@@ -1,0 +1,139 @@
+{
+  "red_move": "h2e2",
+  "fen_after_red_move": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C2C4/9/RNBAKABNR b - - 0 1",
+  "config": {
+    "engine": "tools/pikafish/MacOS/pikafish-apple-silicon",
+    "engine_cwd": "tools/pikafish",
+    "depth": 12,
+    "multipv": 2,
+    "threads": 1,
+    "hash_mb": 128,
+    "clear_hash": true,
+    "show_wdl": true,
+    "max_seconds": 15.0,
+    "repetition_limit": 3
+  },
+  "query": {
+    "depth_requested": 12,
+    "highest_depth": 12,
+    "bestmove": "h9g7",
+    "stopped_by": "completed",
+    "runtime_seconds": 0.05,
+    "multipv": [
+      {
+        "raw": "info depth 12 seldepth 21 multipv 1 score cp -29 wdl 11 913 76 nodes 60686 nps 1189921 hashfull 2 tbhits 0 time 51 pv h9g7 h0g2 i9h9 i0h0 c6c5 h0h4 b9c7 b0c2 g6g5 e3e4 h7i7 h4h9 g7h9 c2e3",
+        "depth": 12,
+        "seldepth": 21,
+        "multipv": 1,
+        "nodes": 60686,
+        "nps": 1189921,
+        "hashfull": 2,
+        "tbhits": 0,
+        "time_ms": 51,
+        "score_type": "cp",
+        "score": -29,
+        "wdl": [
+          11,
+          913,
+          76
+        ],
+        "pv": [
+          "h9g7",
+          "h0g2",
+          "i9h9",
+          "i0h0",
+          "c6c5",
+          "h0h4",
+          "b9c7",
+          "b0c2",
+          "g6g5",
+          "e3e4",
+          "h7i7",
+          "h4h9",
+          "g7h9",
+          "c2e3"
+        ],
+        "red_score": 29,
+        "pv_legal_plies": 14,
+        "pv_has_repeat": false,
+        "pv_first_repeat_at": null,
+        "pv_reaches_repetition_limit": false,
+        "pv_repetition_limit_at": null,
+        "pv_illegal_move": null,
+        "pv_end_fen": "r1bakabn1/9/1cn5c/p3p3p/2p3p2/4P4/P1P1N1P1P/1C2C1N2/9/R1BAKAB2 b - - 0 1"
+      },
+      {
+        "raw": "info depth 12 seldepth 18 multipv 2 score cp -31 wdl 10 910 80 nodes 60686 nps 1189921 hashfull 2 tbhits 0 time 51 pv h7e7 h0g2 h9g7 i0h0 i9i8 b2d2 b9c7 b0c2 i8d8 f0e1 a9b9",
+        "depth": 12,
+        "seldepth": 18,
+        "multipv": 2,
+        "nodes": 60686,
+        "nps": 1189921,
+        "hashfull": 2,
+        "tbhits": 0,
+        "time_ms": 51,
+        "score_type": "cp",
+        "score": -31,
+        "wdl": [
+          10,
+          910,
+          80
+        ],
+        "pv": [
+          "h7e7",
+          "h0g2",
+          "h9g7",
+          "i0h0",
+          "i9i8",
+          "b2d2",
+          "b9c7",
+          "b0c2",
+          "i8d8",
+          "f0e1",
+          "a9b9"
+        ],
+        "red_score": 31,
+        "pv_legal_plies": 11,
+        "pv_has_repeat": false,
+        "pv_first_repeat_at": null,
+        "pv_reaches_repetition_limit": false,
+        "pv_repetition_limit_at": null,
+        "pv_illegal_move": null,
+        "pv_end_fen": "1rbakab2/3r5/1cn1c1n2/p1p1p1p1p/9/9/P1P1P1P1P/2NCC1N2/4A4/R1BAK1BR1 w - - 0 1"
+      }
+    ]
+  },
+  "top": {
+    "best_reply": "h9g7",
+    "red_score": 29,
+    "engine_score_type": "cp",
+    "engine_score": -29,
+    "nodes": 60686,
+    "time_ms": 51,
+    "seldepth": 21,
+    "hashfull": 2,
+    "wdl": [
+      11,
+      913,
+      76
+    ],
+    "pv": [
+      "h9g7",
+      "h0g2",
+      "i9h9",
+      "i0h0",
+      "c6c5",
+      "h0h4",
+      "b9c7",
+      "b0c2",
+      "g6g5",
+      "e3e4",
+      "h7i7",
+      "h4h9",
+      "g7h9",
+      "c2e3"
+    ],
+    "pv_has_repeat": false,
+    "pv_reaches_repetition_limit": false
+  }
+}
