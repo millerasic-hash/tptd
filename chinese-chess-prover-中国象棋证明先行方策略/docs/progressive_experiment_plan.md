@@ -210,6 +210,52 @@ opening_candidate_probe.py
 - 输出 `candidate_entropy` 和 `score_variance`。
 - 估算 `transposition_density` 和 `dag_compression_estimate`。
 
+### 首轮结果
+
+已完成首轮 Top-k 候选稳定性深搜：
+
+```text
+reports/opening-candidate-probe/opening_candidate_probe_report.md
+reports/opening-candidate-probe/opening_candidate_probe_report.json
+```
+
+首轮参数：
+
+```text
+depth = 14,16,18,20,22,24
+MultiPV = 4
+Threads = 1
+Hash = 128 MB
+per-query-max-seconds = 60
+```
+
+耗时口径：
+
+```text
+first_compute_wall_runtime = 93.532 seconds
+cache_rerun_wall_runtime = 4.793 seconds
+cached_search_runtime_sum = 83.736 seconds
+cache_hits = 9
+cache_misses = 0
+```
+
+depth 24 排名前三：
+
+```text
+c3c4  +17  reply b7c7
+b2e2  +17  reply h9g7
+c0e2  +16  reply h7f7
+```
+
+候选熵：
+
+```text
+normalized_entropy = 0.996098
+effective_candidates ~= 8.923 / 9
+```
+
+解释：候选之间没有明显拉开。下一轮如继续开局方向，应只保留 `c3c4 / b2e2 / c0e2`，并用 `h2e2` 做对照。
+
 ### 通过条件
 
 进入阶段 3 的候选必须满足至少一条：

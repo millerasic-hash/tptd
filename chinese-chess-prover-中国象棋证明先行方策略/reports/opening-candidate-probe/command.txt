@@ -1,0 +1,1 @@
+python3 opening_candidate_probe.py --depths 14,16,18,20,22,24 --multipv 4 --threads 1 --hash-mb 128 --per-query-max-seconds 60 --out-dir reports/opening-candidate-probe
