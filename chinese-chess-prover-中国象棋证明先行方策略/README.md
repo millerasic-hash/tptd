@@ -28,6 +28,12 @@
 docs/mathematical_proof_paths.md
 ```
 
+数学概念库见：
+
+```text
+docs/mathematical_concept_bank.md
+```
+
 渐进式实验方案见：
 
 ```text

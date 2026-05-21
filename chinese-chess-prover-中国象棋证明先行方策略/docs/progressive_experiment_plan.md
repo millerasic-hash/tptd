@@ -8,6 +8,14 @@
 
 每一层必须有固定输入、固定资源预算、机器可读产物、人工可读报告和进入下一层的判据。任何阶段都不能把 Pikafish 分数直接当成证明。
 
+数学对象不能过早锁死成单一证明树。本方案配套维护一个数学概念库：
+
+```text
+docs/mathematical_concept_bank.md
+```
+
+搜索和发现阶段可以使用状态图、不动点、QBF、证明复杂度、信息压缩、对称群、偏序、势函数、随机稳定性、谱图和残局逆向分析等多种对象。但最终进入 proof 的结论仍必须由独立校验器确认。
+
 ## 全局实验约束
 
 ### 固定规则
@@ -199,6 +207,8 @@ opening_candidate_probe.py
 - 输出每个候选在不同 depth 下的分数曲线。
 - 输出 best reply 稳定性。
 - 输出 PV 是否重复。
+- 输出 `candidate_entropy` 和 `score_variance`。
+- 估算 `transposition_density` 和 `dag_compression_estimate`。
 
 ### 通过条件
 
@@ -323,6 +333,15 @@ disproof_nodes
 expanded_nodes
 transposition_hits
 certificate_size_bytes
+```
+
+同时记录数学概念库中的辅助指标：
+
+```text
+frontier_size
+transposition_density
+dag_compression_estimate
+proof_cost_proxy
 ```
 
 ### 通过条件
@@ -520,4 +539,3 @@ per-query-max-seconds = 60
 ```
 
 而不是继续堆开局深度。
-
