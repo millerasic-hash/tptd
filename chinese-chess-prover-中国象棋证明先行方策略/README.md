@@ -40,6 +40,12 @@ docs/mathematical_concept_bank.md
 docs/progressive_experiment_plan.md
 ```
 
+证明闭合协议见：
+
+```text
+docs/proof_closure_protocol.md
+```
+
 ## 本机 Pikafish
 
 本次实验已下载官方无头引擎到：

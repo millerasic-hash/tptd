@@ -16,6 +16,14 @@ docs/mathematical_concept_bank.md
 
 搜索和发现阶段可以使用状态图、不动点、QBF、证明复杂度、信息压缩、对称群、偏序、势函数、随机稳定性、谱图和残局逆向分析等多种对象。但最终进入 proof 的结论仍必须由独立校验器确认。
 
+实验结论升级规则由证明闭合协议约束：
+
+```text
+docs/proof_closure_protocol.md
+```
+
+后续所有报告必须区分 `Observation / Hypothesis / Proof Obligation / Verified Claim / Lemma / Theorem`，不能从引擎分数直接跳到证明结论。
+
 ## 全局实验约束
 
 ### 固定规则
