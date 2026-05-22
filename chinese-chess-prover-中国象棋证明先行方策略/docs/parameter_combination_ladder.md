@@ -316,3 +316,38 @@ reports/parameter-combo-auto/round-XXXX/combo_auto_summary.md
 reports/parameter-combo-auto/round-XXXX/combo_auto_summary.json
 reports/parameter-combo-auto/round-XXXX/stage-XX/config-YYYY/
 ```
+
+## 12. 自动阶梯完成结果
+
+本轮自动阶梯已完成到 `66`：
+
+```text
+reports/parameter-combo-auto/stage66_work_report.md
+reports/parameter-combo-auto/round-0030/combo_auto_summary.md
+reports/parameter-combo-auto/round-0030/combo_auto_summary.json
+reports/parameter-combo-auto/state.json
+```
+
+阶段总览：
+
+| 阶段 | 新增镜头 | 轮次 | 配置数 | 运行耗时秒 | 最终状态 |
+|:---|:---|---:|---:|---:|:---|
+| `22` | `depth x MultiPV` | `1` | `4` | `1.811` | `stage_complete_advanced` |
+| `33` | `+ Hash` | `1` | `27` | `31.707` | `stage_complete_advanced` |
+| `44` | `+ ClearHash` | `1` | `128` | `200.488` | `stage_complete_advanced` |
+| `55` | `+ Threads` | `3` | `500` | `1036.489` | `stage_complete_advanced` |
+| `66` | `+ WDL` | `24` | `1728` | `6895.160` | `complete` |
+
+`66` 最终候选统计：
+
+| Rank | 红方首着 | 象棋记法 | Top count | Top share | Avg score | Score range | Avg rank | 黑方应着种类 |
+|---:|:---|:---|---:|---:|---:|---:|---:|---:|
+| 1 | `h2e2` | 炮八平五 | `1273` | `0.737` | `22.476` | `16` | `1.263` | `3` |
+| 2 | `c3c4` | 兵三进一 | `455` | `0.263` | `20.321` | `24` | `1.737` | `5` |
+
+解释：
+
+- 从 `44` 阶段开始，候选稳定收敛为 `h2e2 / c3c4`。
+- `h2e2` 在完整 `66` 参数组合中更稳定。
+- `c3c4` 仍保留为强候选，因为它在 44 首着基线和 Top-k 深搜中多次给出强信号。
+- 本结果仍然是 `L0 Observation`，不能被写成“红方必胜”或“其他首着已被证明错误”。

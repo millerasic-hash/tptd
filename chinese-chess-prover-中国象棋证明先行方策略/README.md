@@ -475,6 +475,25 @@ python3 combo_auto_runner.py \
 
 这个运行器从 `22 -> 33 -> 44 -> 55 -> 66` 分阶段推进，每次只跑一小片组合，并在 `reports/parameter-combo-auto/state.json` 记录断点和下一轮候选。
 
+自动阶梯最终汇总报告：
+
+```text
+reports/parameter-combo-auto/stage66_work_report.md
+reports/parameter-combo-auto/round-0030/combo_auto_summary.md
+reports/parameter-combo-auto/round-0030/combo_auto_summary.json
+reports/parameter-combo-auto/state.json
+```
+
+最终状态：
+
+- 已完成 `66` 阶段：`depth x MultiPV x Hash x ClearHash x Threads x WDL`。
+- 自动运行轮次：`30`。
+- 总配置数：`2387`，其中 `66` 阶段 `1728` 个配置。
+- 最终候选：`h2e2` 和 `c3c4`。
+- `h2e2` 在 `66` 阶段 top share 为 `0.737`，平均分 `22.476`，平均排名 `1.263`。
+- `c3c4` 在 `66` 阶段 top share 为 `0.263`，平均分 `20.321`，平均排名 `1.737`。
+- 闭合级别仍为 `L0 Observation`，不是证明。
+
 ## Top-k 候选稳定性深搜
 
 基于小参数矩阵，选择 9 个候选首着做中等深度稳定性实验：
