@@ -142,6 +142,16 @@ def choose_action(round_no: int, state: dict, target_seconds: int) -> dict:
         and (last_result.get("pv_repeat_total") or 0) == 0
         and (last_result.get("max_seconds_total") or 0) == 0
     )
+    recent = history[-3:]
+    repeated_c3c4_lens = (
+        len(recent) == 3
+        and all(item.get("result", {}).get("leader") == "c3c4" for item in recent)
+        and all((item.get("result", {}).get("max_seconds_total") or 0) == 0 for item in recent)
+        and all((item.get("result", {}).get("pv_repeat_total") or 0) == 0 for item in recent)
+        and all(item.get("action", {}).get("depth") == 28 for item in recent)
+        and all(item.get("action", {}).get("multipvs") == [8] for item in recent)
+        and all(item.get("action", {}).get("hashes_mb") == [1024, 2048] for item in recent)
+    )
 
     if not history:
         depth = 24
@@ -153,6 +163,11 @@ def choose_action(round_no: int, state: dict, target_seconds: int) -> dict:
         hashes = [1024, 2048] if depth >= 26 else [512, 1024]
         multipvs = [4, 8]
         reason = "上一轮 h2e2 稳定领先，下一轮增加 depth，测试领先是否延续。"
+    elif repeated_c3c4_lens:
+        depth = 28
+        hashes = [512, 1024]
+        multipvs = [6]
+        reason = "c3c4 已在同一 depth 28 / MultiPV 8 镜头连续复现，下一轮改用 MultiPV 6 和较小 Hash 做交叉复查，避免重复同一证据。"
     else:
         depth = int(last_action.get("depth", 24))
         hashes = [1024, 2048]
