@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-05-22T01:56:44+00:00",
+  "updated_at": "2026-05-22T01:58:50+00:00",
+  "round": 1,
+  "closure_level": "L0 Observation",
+  "candidate_pool": [
+    "h2e2",
+    "c3c4"
+  ],
+  "history": [
+    {
+      "round": 1,
+      "created_at": "2026-05-22T01:58:50+00:00",
+      "closure_level": "L0 Observation",
+      "action": {
+        "kind": "frontier_extension",
+        "reason": "首轮攻击 66 阶段最高 depth 只有 22 的弱点，用 depth 24 做 frontier extension。",
+        "candidates": [
+          "h2e2",
+          "c3c4"
+        ],
+        "depth": 24,
+        "multipvs": [
+          4,
+          8
+        ],
+        "hashes_mb": [
+          512,
+          1024
+        ],
+        "threads": [
+          1
+        ],
+        "clear_hash": [
+          true
+        ],
+        "show_wdl": [
+          true
+        ],
+        "per_query_max_seconds": 41.2,
+        "target_seconds": 300
+      },
+      "result": {
+        "report_path": "reports/evolution-loop/round-0001/experiment/parameter_combo_probe_report.json",
+        "rows": 8,
+        "completed_rows": 8,
+        "max_seconds_total": 0,
+        "pv_repeat_total": 0,
+        "leader": "h2e2",
+        "score_gap": 3.5,
+        "candidate_stats": [
+          {
+            "red_move": "h2e2",
+            "move_name": "炮八平五",
+            "observations": 4,
+            "top_count": 3,
+            "top_share": 0.75,
+            "score_avg": 18.75,
+            "score_min": 18,
+            "score_max": 20,
+            "score_range": 2,
+            "rank_avg": 1.25,
+            "reply_count": 2,
+            "replies": [
+              "b9c7",
+              "h9g7"
+            ],
+            "pv_repeat_count": 0,
+            "max_seconds_count": 0
+          },
+          {
+            "red_move": "c3c4",
+            "move_name": "兵三进一",
+            "observations": 4,
+            "top_count": 1,
+            "top_share": 0.25,
+            "score_avg": 15.25,
+            "score_min": 12,
+            "score_max": 19,
+            "score_range": 7,
+            "rank_avg": 1.75,
+            "reply_count": 1,
+            "replies": [
+              "b7c7"
+            ],
+            "pv_repeat_count": 0,
+            "max_seconds_count": 0
+          }
+        ],
+        "returncode": 0,
+        "started_at": "2026-05-22T01:56:44+00:00",
+        "finished_at": "2026-05-22T01:58:50+00:00"
+      },
+      "recommended_interval_minutes": 30,
+      "summary_path": "reports/evolution-loop/round-0001/evolution_summary.md"
+    }
+  ]
+}

@@ -52,6 +52,12 @@ docs/proof_closure_protocol.md
 docs/parameter_combination_ladder.md
 ```
 
+自我进化轮询闭环见：
+
+```text
+docs/self_evolution_loop.md
+```
+
 ## 本机 Pikafish
 
 本次实验已下载官方无头引擎到：
@@ -474,6 +480,24 @@ python3 combo_auto_runner.py \
 ```
 
 这个运行器从 `22 -> 33 -> 44 -> 55 -> 66` 分阶段推进，每次只跑一小片组合，并在 `reports/parameter-combo-auto/state.json` 记录断点和下一轮候选。
+
+完成 `66` 后，继续推进到自我进化闭环：
+
+```bash
+python3 evolution_loop_runner.py \
+  --base-dir reports/evolution-loop \
+  --target-seconds 300 \
+  --execute
+```
+
+该闭环每轮执行“复盘输出 -> 自我进化 -> 优化策略 -> 小资源实验 -> 状态沉淀”，输出到：
+
+```text
+reports/evolution-loop/state.json
+reports/evolution-loop/latest_summary.md
+reports/evolution-loop/round-XXXX/evolution_summary.md
+reports/evolution-loop/round-XXXX/evolution_summary.json
+```
 
 自动阶梯最终汇总报告：
 

@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 calibration.json
 tools/pikafish/
+reports/evolution-loop/round-*/stdout.txt
+reports/evolution-loop/round-*/stderr.txt
