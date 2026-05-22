@@ -1,0 +1,78 @@
+{
+  "status": "stage_partial",
+  "run_id": "round-0029",
+  "stage_label": "66",
+  "stage_description": "depth x MultiPV x Hash x ClearHash x Threads x WDL",
+  "candidates": [
+    "h2e2",
+    "c3c4"
+  ],
+  "configs_run": 13,
+  "stage_cursor": 1719,
+  "stage_total_configs": 1728,
+  "wall_runtime_seconds": 277.816,
+  "avg_query_seconds": 9.215,
+  "recommended_interval_minutes": 5,
+  "candidate_stats": [
+    {
+      "red_move": "h2e2",
+      "observations": 1719,
+      "top_count": 1264,
+      "top_share": 0.735,
+      "score_avg": 22.493,
+      "score_min": 15,
+      "score_max": 31,
+      "score_range": 16,
+      "rank_avg": 1.265,
+      "reply_count": 3,
+      "replies": [
+        "b9c7",
+        "h7e7",
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    },
+    {
+      "red_move": "c3c4",
+      "observations": 1719,
+      "top_count": 455,
+      "top_share": 0.265,
+      "score_avg": 20.348,
+      "score_min": 9,
+      "score_max": 33,
+      "score_range": 24,
+      "rank_avg": 1.735,
+      "reply_count": 5,
+      "replies": [
+        "b7c7",
+        "g6g5",
+        "h7d7",
+        "h7e7",
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    }
+  ],
+  "next_stage_label": "66",
+  "next_candidates": [
+    "h2e2",
+    "c3c4"
+  ],
+  "closure_level": "L0 Observation",
+  "reports": [
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1707/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1708/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1709/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1710/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1711/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1712/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1713/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1714/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1715/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1716/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1717/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1718/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0029/stage-66/config-1719/parameter_combo_probe_report.json"
+  ],
+  "state_path": "reports/parameter-combo-auto/state.json"
+}

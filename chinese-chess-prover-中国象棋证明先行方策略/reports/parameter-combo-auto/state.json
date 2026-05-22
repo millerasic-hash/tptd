@@ -1,16 +1,14 @@
 {
   "created_at": "2026-05-21T19:17:02+00:00",
-  "updated_at": "2026-05-21T19:17:04+00:00",
-  "round": 1,
-  "stage_index": 1,
-  "stage_cursor": 0,
+  "updated_at": "2026-05-21T23:48:00+00:00",
+  "round": 30,
+  "stage_index": 4,
+  "stage_cursor": 1728,
   "candidate_pool": [
-    "c3c4",
     "h2e2",
-    "b2e2",
-    "c0e2"
+    "c3c4"
   ],
-  "avg_query_seconds": 0.69,
+  "avg_query_seconds": 9.774,
   "history": [
     {
       "run_id": "round-0001",
@@ -21,6 +19,296 @@
       "wall_runtime_seconds": 1.811,
       "recommended_interval_minutes": 5,
       "created_at": "2026-05-21T19:17:04+00:00"
+    },
+    {
+      "run_id": "round-0002",
+      "stage": "33",
+      "status": "stage_complete_advanced",
+      "configs_run": 27,
+      "stage_cursor_after": 0,
+      "wall_runtime_seconds": 31.707,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T19:23:23+00:00"
+    },
+    {
+      "run_id": "round-0003",
+      "stage": "44",
+      "status": "stage_complete_advanced",
+      "configs_run": 128,
+      "stage_cursor_after": 0,
+      "wall_runtime_seconds": 200.488,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T19:31:37+00:00"
+    },
+    {
+      "run_id": "round-0004",
+      "stage": "55",
+      "status": "stage_partial",
+      "configs_run": 213,
+      "stage_cursor_after": 213,
+      "wall_runtime_seconds": 141.696,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T19:36:13+00:00"
+    },
+    {
+      "run_id": "round-0005",
+      "stage": "55",
+      "status": "stage_partial",
+      "configs_run": 246,
+      "stage_cursor_after": 459,
+      "wall_runtime_seconds": 588.084,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T19:48:30+00:00"
+    },
+    {
+      "run_id": "round-0006",
+      "stage": "55",
+      "status": "stage_complete_advanced",
+      "configs_run": 41,
+      "stage_cursor_after": 0,
+      "wall_runtime_seconds": 306.709,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T20:04:21+00:00"
+    },
+    {
+      "run_id": "round-0007",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 64,
+      "stage_cursor_after": 64,
+      "wall_runtime_seconds": 24.42,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T20:09:43+00:00"
+    },
+    {
+      "run_id": "round-0008",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 94,
+      "stage_cursor_after": 158,
+      "wall_runtime_seconds": 61.146,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T20:16:14+00:00"
+    },
+    {
+      "run_id": "round-0009",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 126,
+      "stage_cursor_after": 284,
+      "wall_runtime_seconds": 107.436,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T20:22:01+00:00"
+    },
+    {
+      "run_id": "round-0010",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 155,
+      "stage_cursor_after": 439,
+      "wall_runtime_seconds": 104.241,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T20:26:58+00:00"
+    },
+    {
+      "run_id": "round-0011",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 192,
+      "stage_cursor_after": 631,
+      "wall_runtime_seconds": 236.276,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T20:34:09+00:00"
+    },
+    {
+      "run_id": "round-0012",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 190,
+      "stage_cursor_after": 821,
+      "wall_runtime_seconds": 352.194,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T20:41:07+00:00"
+    },
+    {
+      "run_id": "round-0013",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 160,
+      "stage_cursor_after": 981,
+      "wall_runtime_seconds": 357.836,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T20:57:42+00:00"
+    },
+    {
+      "run_id": "round-0014",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 134,
+      "stage_cursor_after": 1115,
+      "wall_runtime_seconds": 549.177,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T21:10:54+00:00"
+    },
+    {
+      "run_id": "round-0015",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 90,
+      "stage_cursor_after": 1205,
+      "wall_runtime_seconds": 332.817,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T21:17:47+00:00"
+    },
+    {
+      "run_id": "round-0016",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 78,
+      "stage_cursor_after": 1283,
+      "wall_runtime_seconds": 298.317,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T21:27:13+00:00"
+    },
+    {
+      "run_id": "round-0017",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 70,
+      "stage_cursor_after": 1353,
+      "wall_runtime_seconds": 433.496,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T21:39:58+00:00"
+    },
+    {
+      "run_id": "round-0018",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 53,
+      "stage_cursor_after": 1406,
+      "wall_runtime_seconds": 543.107,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T21:59:48+00:00"
+    },
+    {
+      "run_id": "round-0019",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 36,
+      "stage_cursor_after": 1442,
+      "wall_runtime_seconds": 442.426,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T22:08:09+00:00"
+    },
+    {
+      "run_id": "round-0020",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 27,
+      "stage_cursor_after": 1469,
+      "wall_runtime_seconds": 73.834,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T22:11:59+00:00"
+    },
+    {
+      "run_id": "round-0021",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 35,
+      "stage_cursor_after": 1504,
+      "wall_runtime_seconds": 142.656,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T22:20:11+00:00"
+    },
+    {
+      "run_id": "round-0022",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 41,
+      "stage_cursor_after": 1545,
+      "wall_runtime_seconds": 255.527,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T22:27:35+00:00"
+    },
+    {
+      "run_id": "round-0023",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 39,
+      "stage_cursor_after": 1584,
+      "wall_runtime_seconds": 301.542,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T22:33:17+00:00"
+    },
+    {
+      "run_id": "round-0024",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 35,
+      "stage_cursor_after": 1619,
+      "wall_runtime_seconds": 362.101,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T22:49:48+00:00"
+    },
+    {
+      "run_id": "round-0025",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 29,
+      "stage_cursor_after": 1648,
+      "wall_runtime_seconds": 372.299,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T22:59:58+00:00"
+    },
+    {
+      "run_id": "round-0026",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 24,
+      "stage_cursor_after": 1672,
+      "wall_runtime_seconds": 374.539,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T23:10:00+00:00"
+    },
+    {
+      "run_id": "round-0027",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 19,
+      "stage_cursor_after": 1691,
+      "wall_runtime_seconds": 384.501,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T23:20:42+00:00"
+    },
+    {
+      "run_id": "round-0028",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 15,
+      "stage_cursor_after": 1706,
+      "wall_runtime_seconds": 312.862,
+      "recommended_interval_minutes": 10,
+      "created_at": "2026-05-21T23:29:27+00:00"
+    },
+    {
+      "run_id": "round-0029",
+      "stage": "66",
+      "status": "stage_partial",
+      "configs_run": 13,
+      "stage_cursor_after": 1719,
+      "wall_runtime_seconds": 277.816,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T23:38:54+00:00"
+    },
+    {
+      "run_id": "round-0030",
+      "stage": "66",
+      "status": "complete",
+      "configs_run": 9,
+      "stage_cursor_after": 1728,
+      "wall_runtime_seconds": 194.594,
+      "recommended_interval_minutes": 5,
+      "created_at": "2026-05-21T23:48:01+00:00"
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "status": "stage_partial",
+  "run_id": "round-0026",
+  "stage_label": "66",
+  "stage_description": "depth x MultiPV x Hash x ClearHash x Threads x WDL",
+  "candidates": [
+    "h2e2",
+    "c3c4"
+  ],
+  "configs_run": 24,
+  "stage_cursor": 1672,
+  "stage_total_configs": 1728,
+  "wall_runtime_seconds": 374.539,
+  "avg_query_seconds": 5.848,
+  "recommended_interval_minutes": 10,
+  "candidate_stats": [
+    {
+      "red_move": "h2e2",
+      "observations": 1672,
+      "top_count": 1223,
+      "top_share": 0.731,
+      "score_avg": 22.569,
+      "score_min": 15,
+      "score_max": 31,
+      "score_range": 16,
+      "rank_avg": 1.269,
+      "reply_count": 3,
+      "replies": [
+        "b9c7",
+        "h7e7",
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    },
+    {
+      "red_move": "c3c4",
+      "observations": 1672,
+      "top_count": 449,
+      "top_share": 0.269,
+      "score_avg": 20.446,
+      "score_min": 9,
+      "score_max": 33,
+      "score_range": 24,
+      "rank_avg": 1.731,
+      "reply_count": 5,
+      "replies": [
+        "b7c7",
+        "g6g5",
+        "h7d7",
+        "h7e7",
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    }
+  ],
+  "next_stage_label": "66",
+  "next_candidates": [
+    "h2e2",
+    "c3c4"
+  ],
+  "closure_level": "L0 Observation",
+  "reports": [
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1649/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1650/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1651/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1652/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1653/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1654/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1655/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1656/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1657/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1658/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1659/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1660/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1661/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1662/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1663/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1664/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1665/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1666/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1667/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1668/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1669/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1670/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1671/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0026/stage-66/config-1672/parameter_combo_probe_report.json"
+  ],
+  "state_path": "reports/parameter-combo-auto/state.json"
+}

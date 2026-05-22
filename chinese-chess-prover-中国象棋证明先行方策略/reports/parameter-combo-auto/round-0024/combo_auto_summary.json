@@ -1,0 +1,100 @@
+{
+  "status": "stage_partial",
+  "run_id": "round-0024",
+  "stage_label": "66",
+  "stage_description": "depth x MultiPV x Hash x ClearHash x Threads x WDL",
+  "candidates": [
+    "h2e2",
+    "c3c4"
+  ],
+  "configs_run": 35,
+  "stage_cursor": 1619,
+  "stage_total_configs": 1728,
+  "wall_runtime_seconds": 362.101,
+  "avg_query_seconds": 3.922,
+  "recommended_interval_minutes": 10,
+  "candidate_stats": [
+    {
+      "red_move": "h2e2",
+      "observations": 1619,
+      "top_count": 1180,
+      "top_share": 0.729,
+      "score_avg": 22.657,
+      "score_min": 15,
+      "score_max": 31,
+      "score_range": 16,
+      "rank_avg": 1.271,
+      "reply_count": 3,
+      "replies": [
+        "b9c7",
+        "h7e7",
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    },
+    {
+      "red_move": "c3c4",
+      "observations": 1619,
+      "top_count": 439,
+      "top_share": 0.271,
+      "score_avg": 20.553,
+      "score_min": 9,
+      "score_max": 33,
+      "score_range": 24,
+      "rank_avg": 1.729,
+      "reply_count": 5,
+      "replies": [
+        "b7c7",
+        "g6g5",
+        "h7d7",
+        "h7e7",
+        "h9g7"
+      ],
+      "pv_repeat_count": 0
+    }
+  ],
+  "next_stage_label": "66",
+  "next_candidates": [
+    "h2e2",
+    "c3c4"
+  ],
+  "closure_level": "L0 Observation",
+  "reports": [
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1585/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1586/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1587/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1588/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1589/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1590/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1591/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1592/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1593/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1594/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1595/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1596/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1597/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1598/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1599/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1600/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1601/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1602/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1603/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1604/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1605/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1606/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1607/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1608/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1609/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1610/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1611/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1612/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1613/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1614/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1615/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1616/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1617/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1618/parameter_combo_probe_report.json",
+    "reports/parameter-combo-auto/round-0024/stage-66/config-1619/parameter_combo_probe_report.json"
+  ],
+  "state_path": "reports/parameter-combo-auto/state.json"
+}

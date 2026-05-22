@@ -52,6 +52,12 @@ docs/proof_closure_protocol.md
 docs/parameter_combination_ladder.md
 ```
 
+自我进化轮询闭环见：
+
+```text
+docs/self_evolution_loop.md
+```
+
 ## 本机 Pikafish
 
 本次实验已下载官方无头引擎到：
@@ -474,6 +480,43 @@ python3 combo_auto_runner.py \
 ```
 
 这个运行器从 `22 -> 33 -> 44 -> 55 -> 66` 分阶段推进，每次只跑一小片组合，并在 `reports/parameter-combo-auto/state.json` 记录断点和下一轮候选。
+
+完成 `66` 后，继续推进到自我进化闭环：
+
+```bash
+python3 evolution_loop_runner.py \
+  --base-dir reports/evolution-loop \
+  --target-seconds 300 \
+  --execute
+```
+
+该闭环每轮执行“复盘输出 -> 自我进化 -> 优化策略 -> 小资源实验 -> 状态沉淀”，输出到：
+
+```text
+reports/evolution-loop/state.json
+reports/evolution-loop/latest_summary.md
+reports/evolution-loop/round-XXXX/evolution_summary.md
+reports/evolution-loop/round-XXXX/evolution_summary.json
+```
+
+自动阶梯最终汇总报告：
+
+```text
+reports/parameter-combo-auto/stage66_work_report.md
+reports/parameter-combo-auto/round-0030/combo_auto_summary.md
+reports/parameter-combo-auto/round-0030/combo_auto_summary.json
+reports/parameter-combo-auto/state.json
+```
+
+最终状态：
+
+- 已完成 `66` 阶段：`depth x MultiPV x Hash x ClearHash x Threads x WDL`。
+- 自动运行轮次：`30`。
+- 总配置数：`2387`，其中 `66` 阶段 `1728` 个配置。
+- 最终候选：`h2e2` 和 `c3c4`。
+- `h2e2` 在 `66` 阶段 top share 为 `0.737`，平均分 `22.476`，平均排名 `1.263`。
+- `c3c4` 在 `66` 阶段 top share 为 `0.263`，平均分 `20.321`，平均排名 `1.737`。
+- 闭合级别仍为 `L0 Observation`，不是证明。
 
 ## Top-k 候选稳定性深搜
 
